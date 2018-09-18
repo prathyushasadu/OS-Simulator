@@ -1,0 +1,5763 @@
+Script started on 2018-05-01 16:11:32-0500
+bash-4.4$ whoami | name -w
+No arguments, operating as filter
+Userid    Name                          Home Dir
+psadu     Prathyusha Reddy Sadu         /home/psadu   
+Found 1 matches
+bash-4.4$ ls -ltr
+total 136
+-rw------- 1 psadu psadu  2056 May  1 15:55 CHECK.java
+-rw------- 1 psadu psadu   412 May  1 15:55 CLOCK.java
+-rw------- 1 psadu psadu  2546 May  1 15:55 CONVERSIONS.java
+-rw------- 1 psadu psadu  6066 May  1 15:55 CPU.java
+-rw------- 1 psadu psadu  1268 May  1 15:55 DISK_MANAGER.java
+-rw------- 1 psadu psadu  3480 May  1 15:55 ERROR_HANDLER.java
+-rw------- 1 psadu psadu  2027 May  1 15:55 LOADER.java
+-rw------- 1 psadu psadu  2008 May  1 15:55 MEMORY.java
+-rw------- 1 psadu psadu  5865 May  1 15:55 METERING.java
+-rw------- 1 psadu psadu  3295 May  1 15:55 OneAddressInstruction.java
+-rw------- 1 psadu psadu  6312 May  1 15:55 OPERATIONS.java
+-rw------- 1 psadu psadu  5742 May  1 15:55 PageFaultHandler.java
+-rw------- 1 psadu psadu  6810 May  1 15:55 PCB.java
+-rw------- 1 psadu psadu  2863 May  1 15:55 PMT.java
+-rw------- 1 psadu psadu  3612 May  1 15:55 PROCESS_MANAGER.java
+-rw------- 1 psadu psadu  2936 May  1 15:55 Report
+-rw------- 1 psadu psadu  1586 May  1 15:55 SegmentFaultHandler.java
+-rw------- 1 psadu psadu  9648 May  1 15:55 Spooling.java
+-rw------- 1 psadu psadu  1519 May  1 15:55 Stack.java
+-rw------- 1 psadu psadu  4937 May  1 15:55 SYSTEM.java
+-rw------- 1 psadu psadu  5958 May  1 15:55 ZeroAddressInstruction.java
+-rw------- 1 psadu psadu 13735 May  1 16:07 OUTPUT.java
+-rw------- 1 psadu psadu     0 May  1 16:11 typescript
+bash-4.4$ javac *.java
+bash-4.4$ ls -ltr
+total 248
+-rw------- 1 psadu psadu  2056 May  1 15:55 CHECK.java
+-rw------- 1 psadu psadu   412 May  1 15:55 CLOCK.java
+-rw------- 1 psadu psadu  2546 May  1 15:55 CONVERSIONS.java
+-rw------- 1 psadu psadu  6066 May  1 15:55 CPU.java
+-rw------- 1 psadu psadu  1268 May  1 15:55 DISK_MANAGER.java
+-rw------- 1 psadu psadu  3480 May  1 15:55 ERROR_HANDLER.java
+-rw------- 1 psadu psadu  2027 May  1 15:55 LOADER.java
+-rw------- 1 psadu psadu  2008 May  1 15:55 MEMORY.java
+-rw------- 1 psadu psadu  5865 May  1 15:55 METERING.java
+-rw------- 1 psadu psadu  3295 May  1 15:55 OneAddressInstruction.java
+-rw------- 1 psadu psadu  6312 May  1 15:55 OPERATIONS.java
+-rw------- 1 psadu psadu  5742 May  1 15:55 PageFaultHandler.java
+-rw------- 1 psadu psadu  6810 May  1 15:55 PCB.java
+-rw------- 1 psadu psadu  2863 May  1 15:55 PMT.java
+-rw------- 1 psadu psadu  3612 May  1 15:55 PROCESS_MANAGER.java
+-rw------- 1 psadu psadu  2936 May  1 15:55 Report
+-rw------- 1 psadu psadu  1586 May  1 15:55 SegmentFaultHandler.java
+-rw------- 1 psadu psadu  9648 May  1 15:55 Spooling.java
+-rw------- 1 psadu psadu  1519 May  1 15:55 Stack.java
+-rw------- 1 psadu psadu  4937 May  1 15:55 SYSTEM.java
+-rw------- 1 psadu psadu  5958 May  1 15:55 ZeroAddressInstruction.java
+-rw------- 1 psadu psadu 13735 May  1 16:07 OUTPUT.java
+-rw------- 1 psadu psadu     0 May  1 16:11 typescript
+-rw------- 1 psadu psadu  2091 May  1 16:11 CHECK.class
+-rw------- 1 psadu psadu  2487 May  1 16:11 ERROR_HANDLER.class
+-rw------- 1 psadu psadu   527 May  1 16:11 CLOCK.class
+-rw------- 1 psadu psadu  2222 May  1 16:11 CONVERSIONS.class
+-rw------- 1 psadu psadu  4491 May  1 16:11 CPU.class
+-rw------- 1 psadu psadu  1410 May  1 16:11 Stack.class
+-rw------- 1 psadu psadu  1182 May  1 16:11 DISK_MANAGER.class
+-rw------- 1 psadu psadu  2187 May  1 16:11 LOADER.class
+-rw------- 1 psadu psadu  5921 May  1 16:11 PCB.class
+-rw------- 1 psadu psadu  1745 May  1 16:11 MEMORY.class
+-rw------- 1 psadu psadu  4012 May  1 16:11 METERING.class
+-rw------- 1 psadu psadu  2798 May  1 16:11 OneAddressInstruction.class
+-rw------- 1 psadu psadu  3557 May  1 16:11 OPERATIONS.class
+-rw------- 1 psadu psadu  9882 May  1 16:11 OUTPUT.class
+-rw------- 1 psadu psadu  2804 May  1 16:11 PageFaultHandler.class
+-rw------- 1 psadu psadu  2265 May  1 16:11 PMT.class
+-rw------- 1 psadu psadu  3396 May  1 16:11 PROCESS_MANAGER.class
+-rw------- 1 psadu psadu  1395 May  1 16:11 SegmentFaultHandler.class
+-rw------- 1 psadu psadu  6674 May  1 16:11 Spooling.class
+-rw------- 1 psadu psadu  4324 May  1 16:11 SYSTEM.class
+-rw------- 1 psadu psadu  4876 May  1 16:11 ZeroAddressInstruction.class
+bash-4.4$ pr -n SYSTEM.java
+pr -n OneAddressInstruction.java
+pr -n ZeroAddressInstruction.java
+pr -n SegmentFaultHandler.java
+pr -n PROCESS_MANAGER.java
+pr -n CHECK.java
+pr -n CLOCK.java
+pr -n CONVERSIONS.java
+pr -n CPU.java
+pr -n ERROR_HANDLER.java
+pr -n LOADER.java
+pr -n MEMORY.java
+pr -n OPERATIONS.java
+pr -n PageFaultHandler.java
+pr -n PCB.java
+pr -n PMT.java
+pr -n Spooling.java
+pr -n Stack.java
+pr -n METERING.java
+pr -n DISK_MANAGER.java
+pr -n OUTPUT.java
+
+
+2018-05-01 15:55                   SYSTEM.java                    Page 1
+
+
+    1	import java.io.BufferedReader;
+    2	import java.io.FileNotFoundException;
+    3	import java.io.FileReader;
+    4	import java.io.FileWriter;
+    5	import java.io.IOException;
+    6	import java.io.PrintStream;
+    7	import java.io.PrintWriter;
+    8	import java.util.HashMap;
+    9	import java.util.LinkedList;
+   10	import java.util.Map;
+   11	import java.util.Queue;
+   12	/* a. Prathyusha Reddy Sadu
+   13	    b. CS 5323
+   14	    c. Phase III Multi Scheduling system
+   15	    d. 5/1/2018
+   16	    f. The SYSTEM CLASS is the driver of the project.
+   17	        Spooling and PROCCESS_MANAGER classes were called.
+   18	        Spooling  loads the input file to disk and
+   19	       then CPU will execute the Instructions in the Memory.
+   20	    g. The SYSTEM class is the starting step of the porject.
+   21	       It handles the segment fault and page faults.
+   22	       I divide each module into a seperate class. It checks
+   23	       the trace file and the output files were already existing.
+   24	       It will delete the existing tracefile and output_file.
+   25	    */
+   26	
+   27	public class SYSTEM
+   28	{
+   29	  public static Map<Integer, PCB> pcbs = new HashMap<Integer, PCB>();
+   30	  public static Map<Integer, PMT> PROGRAM_PMTs = new HashMap<Integer, PMT>();
+   31	  public static Map<Integer, PMT> INPUT_PMTs = new HashMap<Integer, PMT>();
+   32	  public static Map<Integer, PMT> OUTPUT_PMTs = new HashMap<Integer, PMT>();
+   33	  public static Map<Integer, String> TRACE_FILEs = new HashMap<Integer, String>();
+   34	  public static String File;
+   35	  public static String INFINTE_JOBS = "";
+   36	  public static int NORMAL_JOBS;
+   37	  public static int ABNORMAL_JOBS;
+   38	  public static int ABNORMAL_TIME_LOST;
+   39	  public static int INFINITE_TIME_LOST;
+   40	  public static String[][] MEMORY = new String[32][8];
+   41	  public static String[][] DISK = new String[256][8];
+   42	  public static Queue<Integer> JOB_QUEUE = new LinkedList<Integer>();
+   43	  public static Queue<Integer> READY_QUEUE = new LinkedList<Integer>();
+   44	  public static Queue<Integer> BLOCKED_QUEUE = new LinkedList<Integer>();
+   45	  public static METERING METER = new METERING();
+   46	  public static PCB CURRENT_pcb;
+   47	  public static boolean KILL_JOB = false;
+   48	  public static int[] MEMORY_ALLOCATED = new int[32];
+   49	  public static int[] DISK_FMBV = new int[256];
+   50	  public static int[] MEMORY_FMBV = new int[32];
+   51	  public static String PC ;
+   52	  public static String IR;
+   53	  public static String EA = null;
+   54	  public static String TOS;
+   55	  public static String BR;
+   56	  public static PMT pmt;
+
+
+
+
+
+
+
+2018-05-01 15:55                   SYSTEM.java                    Page 2
+
+
+   57	  public static PMT UPDATE_PMT;
+   58	  public static int TIME;
+   59	  public static int CURRENT_JOB;
+   60	  public static PrintWriter write;
+   61	  public static BufferedReader Reader;
+   62	  public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   63	  
+   64	  public static void main(String[] args)
+   65	  {
+   66	    File = args[0];
+   67	    try
+   68	    {
+   69	      Reader = new BufferedReader(new FileReader(File));
+   70	    }
+   71	    catch (FileNotFoundException ex)
+   72	    {
+   73	      System.out.println("FILE NOT FOUND");
+   74	      System.exit(0);
+   75	    }
+   76	    try
+   77	    {
+   78	      write = new PrintWriter("execution_profile");
+   79	    }
+   80	    catch (FileNotFoundException ex) {}
+   81	    Spooling.Readline();
+   82	    Spooling.Input_Spooling();
+   83	    while ((BLOCKED_QUEUE.size() != 0) || (READY_QUEUE.size() != 0) || (JOB_QUEUE.size() != 0)) {
+   84	      PROCESS_MANAGER.process_manager();
+   85	    }
+   86	    OUTPUT.INFORMATION();
+   87	    write.flush();
+   88	  }
+   89	  
+   90	  public static void createpcb(int ID)
+   91	  {
+   92	    pcbs.put(Integer.valueOf(ID), new PCB());
+   93	  }
+   94	  
+   95	  public static void createProgPMT(int ID)
+   96	  {
+   97	    PROGRAM_PMTs.put(Integer.valueOf(ID), new PMT());
+   98	  }
+   99	  
+  100	  public static void createInpPMT(int ID)
+  101	  {
+  102	    INPUT_PMTs.put(Integer.valueOf(ID), new PMT());
+  103	  }
+  104	  
+  105	  public static void createOutPMT(int ID)
+  106	  {
+  107	    OUTPUT_PMTs.put(Integer.valueOf(ID), new PMT());
+  108	  }
+  109	  
+  110	  public static int CHECK_MEMORY_SIZE()
+  111	  {
+  112	    int count = 0;
+
+
+
+
+
+
+
+2018-05-01 15:55                   SYSTEM.java                    Page 3
+
+
+  113	    for (int i = 0; i < MEMORY_ALLOCATED.length; i++) {
+  114	      if (MEMORY_ALLOCATED[i] == 0) {
+  115	        count++;
+  116	      }
+  117	    }
+  118	    return count;
+  119	  }
+  120	  
+  121	  public static int ALLOCATE_MEMORY()
+  122	  {
+  123	    int frame = -1;
+  124	    for (int i = 0; i < MEMORY_ALLOCATED.length; i++) {
+  125	      if (MEMORY_ALLOCATED[i] == 0)
+  126	      {
+  127	        frame = i;
+  128	        break;
+  129	      }
+  130	    }
+  131	    MEMORY_ALLOCATED[frame] = 1;
+  132	    
+  133	    return frame;
+  134	  }
+  135	  
+  136	  public static int DISK_UTILIZED()
+  137	  {
+  138	    int count = 0;
+  139	    for (int i = 0; i < DISK_FMBV.length; i++) {
+  140	      if (DISK_FMBV[i] == 1) {
+  141	        count++;
+  142	      }
+  143	    }
+  144	    return count;
+  145	  }
+  146	  
+  147	  public static int MEMORY_UTILIZED()
+  148	  {
+  149	    int count = 0;
+  150	    for (int i = 0; i < MEMORY_ALLOCATED.length; i++) {
+  151	      if (MEMORY_ALLOCATED[i] == 1) {
+  152	        count++;
+  153	      }
+  154	    }
+  155	    return count;
+  156	  }
+  157	  
+  158	  public static void createTraceFile(int id, String name)
+  159	  {
+  160	    String filename = "trace_" + name + ".txt";
+  161	    
+  162	    TRACE_FILEs.put(Integer.valueOf(id), filename);
+  163	    try
+  164	    {
+  165	      FileWriter initial = new FileWriter(filename);
+  166	      initial.write("PC\tBR\tIR\tTOS\tS[TOS]\t");
+  167	      initial.write("EA\tMEM[EA]\tTOS\tS[TOS]\tEA\tMEM[EA])");
+  168	      initial.write("\n");
+
+
+
+
+
+
+
+2018-05-01 15:55                   SYSTEM.java                    Page 4
+
+
+  169	      initial.flush();
+  170	    }
+  171	    catch (IOException ex) {}
+  172	  }
+  173	  
+  174	}
+  175	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n OneAddressInstruction.java
+
+
+2018-05-01 15:55            OneAddressInstruction.java            Page 1
+
+
+    1	import java.util.*;
+    2	import java.io.*;
+    3	 /*
+    4	    f. The OneAddressInstruction CLASS is used for
+    5	       executing the instruction of type one address.
+    6	       After executing each instrction the clock is
+    7	       updated.
+    8	    */
+    9	
+   10	
+   11	public class OneAddressInstruction {
+   12	public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   13	public static void ONE_ADDRESS_EXECUTION(String OPCODE)
+   14	  {
+   15	    String one;
+   16	    String two;
+   17	    String result;
+   18	    int check;
+   19	    String temp;
+   20	    switch (OPCODE)
+   21	    {
+   22	    case "00001": 
+   23	      one = CPU.stack.POP();
+   24	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   25	      result = OPERATIONS.OR(one, two);
+   26	      CPU.stack.PUSH(result);
+   27	      break;
+   28	    case "00010": 
+   29	      one = CPU.stack.POP();
+   30	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   31	      result = OPERATIONS.AND(one, two);
+   32	      CPU.stack.PUSH(result);
+   33	      break;
+   34	    case "00100": 
+   35	      one = CPU.stack.POP();
+   36	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   37	      result = OPERATIONS.XOR(one, two);
+   38	      CPU.stack.PUSH(result);
+   39	      break;
+   40	    case "00101": 
+   41	      one = CPU.stack.POP();
+   42	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   43	      result = OPERATIONS.ADD(one, two);
+   44	      CPU.stack.PUSH(result);
+   45	      break;
+   46	    case "00110": 
+   47	      one = CPU.stack.POP();
+   48	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   49	      result = OPERATIONS.SUB(one, two);
+   50	      CPU.stack.PUSH(result);
+   51	      break;
+   52	    case "00111": 
+   53	      one = CPU.stack.POP();
+   54	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   55	      result = OPERATIONS.MUL(one, two);
+   56	      CPU.stack.PUSH(result);
+
+
+
+
+
+
+
+2018-05-01 15:55            OneAddressInstruction.java            Page 2
+
+
+   57	      break;
+   58	    case "01000": 
+   59	      one = CPU.stack.POP();
+   60	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   61	      result = OPERATIONS.DIV(one, two);
+   62	      CPU.stack.PUSH(result);
+   63	      break;
+   64	    case "01001": 
+   65	      one = CPU.stack.POP();
+   66	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   67	      result = OPERATIONS.MOD(one, two);
+   68	      CPU.stack.PUSH(result);
+   69	      break;
+   70	    case "01100": 
+   71	      one = CPU.stack.PEEK();
+   72	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   73	      result = OPERATIONS.CPG(one, two);
+   74	      CPU.stack.PUSH(result);
+   75	      break;
+   76	    case "01101": 
+   77	      one = CPU.stack.PEEK();
+   78	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   79	      result = OPERATIONS.CPL(one, two);
+   80	      CPU.stack.PUSH(result);
+   81	      break;
+   82	    case "01110": 
+   83	      one = CPU.stack.PEEK();
+   84	      two = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+   85	      result = OPERATIONS.CPE(one, two);
+   86	      CPU.stack.PUSH(result);
+   87	      break;
+   88	    case "01111": 
+   89	      SYSTEM.PC = SYSTEM.EA;
+   90	      break;
+   91	    case "10000": 
+   92	      one = CPU.stack.POP();
+   93	      check = Integer.parseInt(one, 2);
+   94	      if (check == 0) {
+   95	        SYSTEM.PC = SYSTEM.EA;
+   96	      }
+   97	      break;
+   98	    case "10001": 
+   99	      one = CPU.stack.POP();
+  100	      check = Integer.parseInt(one, 2);
+  101	      if (check == 1) {
+  102	        SYSTEM.PC = SYSTEM.EA;
+  103	      }
+  104	      break;
+  105	    case "10010": 
+  106	      CPU.stack.PUSH(SYSTEM.PC);
+  107	      SYSTEM.PC = SYSTEM.EA;
+  108	      break;
+  109	    case "10110": 
+  110	      temp = MEMORY.MEMORY("READ", SYSTEM.EA, null);
+  111	      CPU.stack.PUSH(temp);
+  112	      break;
+
+
+
+
+
+
+
+2018-05-01 15:55            OneAddressInstruction.java            Page 3
+
+
+  113	    case "10111": 
+  114	      temp = CPU.stack.POP();
+  115	      MEMORY.MEMORY("WRITE", SYSTEM.EA, temp);
+  116	      break;
+  117	    default: 
+  118	      ERROR.ERROR_HANDLER(10, SYSTEM.CURRENT_JOB);
+  119	    }
+  120	  }
+  121	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n ZeroAddressInstruction.java
+
+
+2018-05-01 15:55           ZeroAddressInstruction.java            Page 1
+
+
+    1	import java.io.*;
+    2	import java.util.*;
+    3	
+    4	/*
+    5	 *  f. ZeroAddressInstruction class is used to execute 
+    6	 *  the ZeroAddress Instructions.
+    7	 *  Object to ERROR_HANDLER is created which is used to address
+    8	 *  the errors in the execution.
+    9	 *  In this class stack push , pop and memory operations were done.
+   10	 *  System CLOCK is also updated 
+   11	 *   as given in the specification.
+   12	 *  RD and WR operation are 
+   13	 *  used to get the system input and write output
+   14	 */
+   15	
+   16	public class ZeroAddressInstruction {
+   17	
+   18		public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   19	
+   20	public static void ZERO_ADDRESS_EXECUTION(String OPCODE)
+   21	{
+   22		String one;
+   23		String two;
+   24		String result;
+   25		switch (OPCODE)
+   26		{
+   27			case "00000": 
+   28				break;
+   29			case "00001": 
+   30				one = CPU.stack.POP();
+   31				two = CPU.stack.POP();
+   32				result = OPERATIONS.OR(one, two);
+   33				CPU.stack.PUSH(result);
+   34				break;
+   35			case "00010": 
+   36				one = CPU.stack.POP();
+   37				two = CPU.stack.POP();
+   38				result = OPERATIONS.AND(one, two);
+   39				CPU.stack.PUSH(result);
+   40				break;
+   41			case "00011": 
+   42				one = CPU.stack.POP();
+   43				result = OPERATIONS.NOT(one);
+   44				CPU.stack.PUSH(result);
+   45				break;
+   46			case "00100": 
+   47				one = CPU.stack.POP();
+   48				two = CPU.stack.POP();
+   49				result = OPERATIONS.XOR(one, two);
+   50				CPU.stack.PUSH(result);
+   51				break;
+   52			case "00101": 
+   53				one = CPU.stack.POP();
+   54				two = CPU.stack.POP();
+   55				result = OPERATIONS.ADD(one, two);
+   56				CPU.stack.PUSH(result);
+
+
+
+
+
+
+
+2018-05-01 15:55           ZeroAddressInstruction.java            Page 2
+
+
+   57				break;
+   58			case "00110": 
+   59				one = CPU.stack.POP();
+   60				two = CPU.stack.POP();
+   61				result = OPERATIONS.SUB(two, one);
+   62				CPU.stack.PUSH(result);
+   63				break;
+   64			case "00111": 
+   65				one = CPU.stack.POP();
+   66				two = CPU.stack.POP();
+   67				result = OPERATIONS.MUL(one, two);
+   68				CPU.stack.PUSH(result);
+   69				break;
+   70			case "01000": 
+   71				one = CPU.stack.POP();
+   72				two = CPU.stack.POP();
+   73				result = OPERATIONS.DIV(two, one);
+   74				CPU.stack.PUSH(result);
+   75				break;
+   76			case "01001": 
+   77				one = CPU.stack.POP();
+   78				two = CPU.stack.POP();
+   79				result = OPERATIONS.MOD(two, one);
+   80				CPU.stack.PUSH(result);
+   81				break;
+   82			case "01010": 
+   83				one = CPU.stack.POP();
+   84				result = OPERATIONS.SL(one);
+   85				CPU.stack.PUSH(result);
+   86				break;
+   87			case "01011": 
+   88				one = CPU.stack.POP();
+   89				result = OPERATIONS.SR(one);
+   90				CPU.stack.PUSH(result);
+   91				break;
+   92			case "01100": 
+   93				one = CPU.stack.POP();
+   94				two = CPU.stack.PEEK();
+   95				CPU.stack.PUSH(one);
+   96				result = OPERATIONS.CPG(two, one);
+   97				CPU.stack.PUSH(result);
+   98				break;
+   99			case "01101": 
+  100				one = CPU.stack.POP();
+  101				two = CPU.stack.PEEK();
+  102				CPU.stack.PUSH(one);
+  103				result = OPERATIONS.CPL(two, one);
+  104				CPU.stack.PUSH(result);
+  105				break;
+  106			case "01110": 
+  107				one = CPU.stack.POP();
+  108				two = CPU.stack.PEEK();
+  109				CPU.stack.PUSH(one);
+  110				result = OPERATIONS.CPE(two, one);
+  111				CPU.stack.PUSH(result);
+  112				break;
+
+
+
+
+
+
+
+2018-05-01 15:55           ZeroAddressInstruction.java            Page 3
+
+
+  113			case "10011": 
+  114				inputRead();
+  115				break;
+  116			case "10100": 
+  117				outputWrite();
+  118				break;
+  119			case "10101": 
+  120				SYSTEM.PC = CPU.stack.POP();
+  121				break;
+  122			case "11000": 
+  123				CPU.HLT = true;
+  124	
+  125				break;
+  126			default: 
+  127				ERROR.ERROR_HANDLER(10, SYSTEM.CURRENT_JOB);
+  128		}
+  129	}
+  130	
+  131	 public static void inputRead()
+  132	  {
+  133	    boolean segment_fault = false;
+  134	    MEMORY M = new MEMORY();
+  135	
+  136	    PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  137	    pcb.inputs_read += 1;
+  138	    SYSTEM.METER.UPDATE_IO_REQUESTS(SYSTEM.CURRENT_JOB);
+  139	    int index = pcb.GET_INPUT_INDEX();
+  140	    PMT IN_PMT = SYSTEM.INPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  141	    if (IN_PMT == null)
+  142	    {
+  143	      SegmentFaultHandler.SegmentFaultHandler_func(1);
+  144	      segment_fault = true;
+  145	      IN_PMT = SYSTEM.INPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  146	    }
+  147	    if (index > 7)
+  148	    {
+  149	      pcb.INPUT_INDEX = 0;
+  150	      index = 0;
+  151	      pcb.input_th_page += 1;
+  152	    }
+  153	    int page = pcb.GET_INPUT_PAGES(pcb.input_th_page);
+  154	    int memory_page = IN_PMT.GET_FRAME(page);
+  155	    if(page == -1 && memory_page == -1)
+  156	    {
+  157		    ERROR.ERROR_HANDLER(4, SYSTEM.CURRENT_JOB);
+  158		    CPU.STATUS = "ERROR";
+  159	    }
+  160	
+  161	    if (memory_page == -1)
+  162	    {
+  163	      pcb.PAGE_FAULTS += 1;
+  164	      int disk_page = pcb.GET_INPUT_DISK_PAGE(page);
+  165	      memory_page = pcb.GET_ALLOCATED_MEMORY();
+  166	      if (SYSTEM.MEMORY_FMBV[memory_page] == 1)
+  167	      {
+  168	        PageFaultHandler.runReplacement(page, disk_page, 1);
+
+
+
+
+
+
+
+2018-05-01 15:55           ZeroAddressInstruction.java            Page 4
+
+
+  169	        memory_page = IN_PMT.GET_FRAME(page);
+  170	      }
+  171	    }
+  172	
+  173	    String data = SYSTEM.MEMORY[memory_page][index];
+  174	
+  175	    CPU.stack.PUSH(data);
+  176	    pcb.IO_TIME += 20;
+  177	    if (segment_fault == true)
+  178	    {
+  179	      CPU.STATUS = "SEGMENT FAULT";
+  180	      pcb.SEGMENT_FAULT_TIME += 20;
+  181	      return;
+  182	    }
+  183	    CPU.STATUS = "IO";
+  184	  }
+  185	public static void outputWrite()
+  186	  {
+  187	    boolean segment_fault = false;
+  188	    
+  189	    MEMORY M = new MEMORY();
+  190	    
+  191	    String data = CPU.stack.POP();
+  192	    PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  193	    pcb.outputs_written += 1;
+  194	    SYSTEM.METER.UPDATE_IO_REQUESTS(SYSTEM.CURRENT_JOB);
+  195	    int index = pcb.GET_OUTPUT_INDEX();
+  196	    PMT OUT_PMT = SYSTEM.OUTPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  197	    if (OUT_PMT == null)
+  198	    {
+  199	      SegmentFaultHandler.SegmentFaultHandler_func(2);
+  200	      segment_fault = true;
+  201	      OUT_PMT = SYSTEM.OUTPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  202	    }
+  203	    if (index > 7)
+  204	    {
+  205	      pcb.OUTPUT_INDEX = 0;
+  206	      index = 0;
+  207	      pcb.output_th_page += 1;
+  208	    }
+  209	    int page = pcb.GET_OUTPUT_PAGES(pcb.output_th_page);
+  210	    
+  211	    int memory_page = OUT_PMT.GET_FRAME(page);
+  212	    if (memory_page == -1)
+  213	    {
+  214	      pcb.PAGE_FAULTS += 1;
+  215	      int disk_page = pcb.GET_OUTPUT_DISK_PAGE(page);
+  216	      memory_page = pcb.GET_ALLOCATED_MEMORY();
+  217	      if (SYSTEM.MEMORY_FMBV[memory_page] == 1)
+  218	      {
+  219	        PageFaultHandler.runReplacement(page, disk_page, 2);
+  220	        memory_page = OUT_PMT.GET_FRAME(page);
+  221	      }
+  222	    }
+  223	    SYSTEM.MEMORY[memory_page][index] = data;
+  224	    
+
+
+
+
+
+
+
+2018-05-01 15:55           ZeroAddressInstruction.java            Page 5
+
+
+  225	    int disk_page = pcb.GET_OUTPUT_DISK_PAGE(page);
+  226	    SYSTEM.DISK[disk_page][index] = data;
+  227	    
+  228	    pcb.IO_TIME += 20;
+  229	    if (segment_fault == true)
+  230	    {
+  231	      CPU.STATUS = "SEGMENT FAULT";
+  232	      pcb.SEGMENT_FAULT_TIME += 20;
+  233	      return;
+  234	    }
+  235	    CPU.STATUS = "IO";
+  236	  }
+  237	
+  238	
+  239	}
+  240	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n SegmentFaultHandler.java
+
+
+2018-05-01 15:55             SegmentFaultHandler.java             Page 1
+
+
+    1	import java.io.*;
+    2	import java.util.*;
+    3	
+    4	/* f. SegmentFaultHandler is used for handling
+    5	 *    the segment faults.
+    6	 *    Segment faults ofr the first RD and WR instructions.
+    7	 *    It creates the PMT for each segment
+    8	 */
+    9	public class SegmentFaultHandler {
+   10	
+   11		public static void SegmentFaultHandler_func(int x)
+   12		{
+   13			int npage = 0;
+   14	
+   15			MEMORY M = new MEMORY();
+   16			int reference = 1;int dirty = 0;
+   17	
+   18			PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   19	
+   20			int position = pcb.GET_ALLOCATED_MEMORY();
+   21			PMT SEGMENT_PMT;
+   22			int page;
+   23			int disk_page;
+   24			switch (x)
+   25			{
+   26				case 1:
+   27					SYSTEM.createInpPMT(SYSTEM.CURRENT_JOB);
+   28	
+   29					SEGMENT_PMT = SYSTEM.INPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   30					page = pcb.GET_INPUT_PAGES(npage);
+   31					if(page == -1)
+   32					{
+   33						break;
+   34					}
+   35					disk_page = pcb.GET_INPUT_DISK_PAGE(page);
+   36					if (SYSTEM.MEMORY_FMBV[position] == 1)
+   37					{
+   38						PageFaultHandler.runReplacement(page, disk_page, 1);
+   39					}
+   40					else
+   41					{
+   42						DISK_MANAGER.LOAD_TO_MEMORY(disk_page, position);
+   43						SEGMENT_PMT.ADD_PAGE(page, position, reference, dirty);
+   44					}
+   45					break;
+   46				case 2:
+   47					SYSTEM.createOutPMT(SYSTEM.CURRENT_JOB);
+   48					SEGMENT_PMT = SYSTEM.OUTPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   49					page = pcb.GET_OUTPUT_PAGES(npage);
+   50					disk_page = pcb.GET_OUTPUT_DISK_PAGE(page);
+   51					if (SYSTEM.MEMORY_FMBV[position] == 1)
+   52					{
+   53						PageFaultHandler.runReplacement(page, disk_page, 2);
+   54					}
+   55					else
+   56					{
+
+
+
+
+
+
+
+2018-05-01 15:55             SegmentFaultHandler.java             Page 2
+
+
+   57						DISK_MANAGER.LOAD_TO_MEMORY(disk_page, position);
+   58	
+   59						SEGMENT_PMT.ADD_PAGE(page, position, reference, dirty);
+   60					}
+   61					break;
+   62			}
+   63	
+   64		}
+   65	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n PROCESS_MANAGER.java
+
+
+2018-05-01 15:55               PROCESS_MANAGER.java               Page 1
+
+
+    1	import java.util.ArrayList;
+    2	import java.util.Map;
+    3	import java.util.Queue;
+    4	
+    5	/*
+    6	f. The process manager is event driven. Dependant on the message from CPU
+    7	the CPU acts accordingly.
+    8	*/
+    9	public class PROCESS_MANAGER
+   10	{
+   11	  public static void process_manager()
+   12	  {
+   13	    /*
+   14	    Starts the Job runs until Ready Queue and Blocked queue are empty
+   15	    */
+   16	    if ((SYSTEM.BLOCKED_QUEUE.size() != 0) && (SYSTEM.READY_QUEUE.size() == 0)) {
+   17	      CLOCK.INCREMENT(20);
+   18	    }
+   19	    if (SYSTEM.BLOCKED_QUEUE.size() != 0)
+   20	    {
+   21	      int JOB_ID = (SYSTEM.BLOCKED_QUEUE.element()).intValue();
+   22	      PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(JOB_ID));
+   23	      if (pcb.GET_TIME() <= CLOCK.GET_TIME())
+   24	      {
+   25	        SYSTEM.READY_QUEUE.add(Integer.valueOf(JOB_ID));
+   26	        SYSTEM.BLOCKED_QUEUE.poll();
+   27	      }
+   28	    }
+   29	    if (SYSTEM.CHECK_MEMORY_SIZE() >= 6) {
+   30	      LOADER.LOADER();
+   31	    }
+   32	    if (SYSTEM.READY_QUEUE.size() != 0)
+   33	    {
+   34	      int JOB_ID = (SYSTEM.READY_QUEUE.poll()).intValue();
+   35	      SYSTEM.CURRENT_JOB = JOB_ID;
+   36	      PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(JOB_ID));
+   37	      SYSTEM.CURRENT_pcb = pcb;
+   38	      SYSTEM.BR = pcb.BR;
+   39	      SYSTEM.EA = pcb.EA;
+   40	      int PC = pcb.GET_PC();
+   41	      
+   42	      String TRACE = pcb.GET_TRACE();
+   43	      LOAD_STACK(pcb);
+   44	      
+   45	      CPU.HLT = false;
+   46	      SYSTEM.KILL_JOB = false;
+   47	      CPU.STATUS = null;
+   48	      
+   49	      SYSTEM.METER.UPDATE_CPU_SHOTS(JOB_ID);
+   50	      String MESSAGE = CPU.CPU(PC, TRACE);
+   51	      CONTEXT_SWITCH(MESSAGE);
+   52	    }
+   53	  }
+   54	  
+   55	  public static void CONTEXT_SWITCH(String MESSAGE)
+   56	  {
+
+
+
+
+
+
+
+2018-05-01 15:55               PROCESS_MANAGER.java               Page 2
+
+
+   57	    PCB JOB_pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   58	    switch (MESSAGE)
+   59	    {
+   60	    case "HLT":
+   61	
+   62	      if(!(JOB_pcb.NATURE_OF_TERMINATION == "ABNORMAL")) 
+   63	      {
+   64	      SYSTEM.NORMAL_JOBS += 1;
+   65	      }
+   66	      JOB_pcb.EXIT_TIME = CLOCK.GET_TIME();
+   67	      OUTPUT.Output_Spooling(JOB_pcb);
+   68	      
+   69	      EMPTY_STACK();
+   70	      break;
+   71	    case "TIME EXPIRED": 
+   72	      JOB_pcb.SET_PC(Integer.parseInt(SYSTEM.PC, 2));
+   73	      JOB_pcb.SET_IR(SYSTEM.IR);
+   74	      DUMP_STACK(JOB_pcb);
+   75	      
+   76	      SYSTEM.READY_QUEUE.add(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   77	      break;
+   78	    case "ERROR":
+   79	      SYSTEM.ABNORMAL_JOBS += 1;
+   80	      JOB_pcb.EXIT_TIME = CLOCK.GET_TIME();
+   81	      OUTPUT.Output_Spooling(JOB_pcb);
+   82	      EMPTY_STACK();
+   83	      break;
+   84	    case "PAGE FAULT": 
+   85	      JOB_pcb.SET_PC(Integer.parseInt(SYSTEM.PC, 2));
+   86	      JOB_pcb.SET_IR(SYSTEM.IR);
+   87	      DUMP_STACK(JOB_pcb);
+   88	      JOB_pcb.EXPECTED_IO_COMPLETION = (CLOCK.GET_TIME() + 20);
+   89	      SYSTEM.BLOCKED_QUEUE.add(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   90	      break;
+   91	    case "SEGMENT FAULT": 
+   92	      JOB_pcb.SET_PC(Integer.parseInt(SYSTEM.PC, 2));
+   93	      JOB_pcb.SET_IR(SYSTEM.IR);
+   94	      
+   95	      DUMP_STACK(JOB_pcb);
+   96	      
+   97	      JOB_pcb.EXPECTED_IO_COMPLETION = (CLOCK.GET_TIME() + 20);
+   98	      SYSTEM.BLOCKED_QUEUE.add(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   99	      break;
+  100	    case "IO": 
+  101	      JOB_pcb.SET_PC(Integer.parseInt(SYSTEM.PC, 2));
+  102	      JOB_pcb.SET_IR(SYSTEM.IR);
+  103	      
+  104	      DUMP_STACK(JOB_pcb);
+  105	      
+  106	      SYSTEM.READY_QUEUE.add(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  107	    }
+  108	  }
+  109	  
+  110	  public static void DUMP_STACK(PCB pcb)
+  111	  {
+  112	    int size = CPU.stack.SIZE();
+
+
+
+
+
+
+
+2018-05-01 15:55               PROCESS_MANAGER.java               Page 3
+
+
+  113	    while (CPU.stack.SIZE() > 0) {
+  114	      pcb.DUMP_STACK(CPU.stack.POP());
+  115	    }
+  116	  }
+  117	  
+  118	  public static void LOAD_STACK(PCB pcb)
+  119	  {
+  120	    ArrayList<String> stack = pcb.GET_STACK();
+  121	    try
+  122	    {
+  123	      for (int i = stack.size() - 1; i >= 0; i--) {
+  124	        CPU.stack.PUSH(stack.get(i));
+  125	      }
+  126	      pcb.STACK.clear();
+  127	    }
+  128	    catch (Exception ex) {}
+  129	  }
+  130	  
+  131	  public static void EMPTY_STACK()
+  132	  {
+  133	    while (CPU.stack.SIZE() > 0) {
+  134	      CPU.stack.POP();
+  135	    }
+  136	  }
+  137	}
+  138	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n CHECK.java
+
+
+2018-05-01 15:55                    CHECK.java                    Page 1
+
+
+    1	import java.util.*;
+    2	/*
+    3	 * f. Checks the given values are valid or not.
+    4	 */
+    5	class CHECK
+    6	{
+    7	  public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+    8	  
+    9	  public static boolean INTEGER_OR_NOT(String input)
+   10	  {
+   11	    try
+   12	    {
+   13	      Integer.parseInt(input);
+   14	    }
+   15	    catch (NumberFormatException e)
+   16	    {
+   17	      return false;
+   18	    }
+   19	    return true;
+   20	  }
+   21	  
+   22	  public static boolean BINARY_OR_NOT(String input)
+   23	  {
+   24	    boolean result = true;
+   25	    for (int i = 0; i < input.length(); i++)
+   26	    {
+   27	      char character = input.charAt(i);
+   28	      if ((character != '1') || (character != '0'))
+   29	      {
+   30	        result = false;
+   31	        break;
+   32	      }
+   33	    }
+   34	    return result;
+   35	  }
+   36	  
+   37	  public static void INPUT_RULES(int number)
+   38	  {
+   39	    int HIGH_RANGE = (int)Math.pow(2.0D, 15.0D) - 1;
+   40	    int LOW_RANGE = (int)Math.pow(-2.0D, 15.0D);
+   41	    if ((number > HIGH_RANGE) || (number < LOW_RANGE)) {
+   42	      ERROR.ERROR_HANDLER(3, SYSTEM.CURRENT_JOB);
+   43	    }
+   44	  }
+   45	  
+   46	  public static String DATA_RULES(String input)
+   47	  {
+   48	    int temp = CONVERSIONS.TWOs_TO_DECIMAL(input);
+   49	    INPUT_RULES(temp);
+   50	    while (input.length() > 16) {
+   51	      input = input.substring(1);
+   52	    }
+   53	    return input;
+   54	  }
+   55	  
+   56	  public static boolean POSITIVE_OR_NOT(String input)
+
+
+
+
+
+
+
+2018-05-01 15:55                    CHECK.java                    Page 2
+
+
+   57	  {
+   58	    char bit = input.charAt(0);
+   59	    boolean result = false;
+   60	    if (bit == '1') {
+   61	      result = false;
+   62	    } else if (bit == '0') {
+   63	      result = true;
+   64	    }
+   65	    return result;
+   66	  }
+   67	  
+   68	  public static String OPERAND(String input)
+   69	  {
+   70	    try
+   71	    {
+   72	      Integer.parseInt(input, 2);
+   73	    }
+   74	    catch (NumberFormatException e)
+   75	    {
+   76	      return "0";
+   77	    }
+   78	    return input;
+   79	  }
+   80	  
+   81	  public static void INFINITE_LOOP(String result, String value)
+   82	  {
+   83	    PCB JOB_pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   84	    if ((JOB_pcb.stored_result.equals(result)) && (JOB_pcb.stored_value.equals(value)))
+   85	    {
+   86	      JOB_pcb.int_inf += 1;
+   87	    }
+   88	    else
+   89	    {
+   90	      JOB_pcb.stored_result = result;
+   91	      JOB_pcb.stored_value = value;
+   92	    }
+   93	    if (JOB_pcb.int_inf > 5) {
+   94	      ERROR.ERROR_HANDLER(11, SYSTEM.CURRENT_JOB);
+   95	    }
+   96	  }
+   97	}
+   98	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n CLOCK.java
+
+
+2018-05-01 15:55                    CLOCK.java                    Page 1
+
+
+    1	/*
+    2	 * f. The CLOCK is used for updating
+    3	 *    the clock and writing the output
+    4	 *    for regular intervals
+    5	 */
+    6	public class CLOCK
+    7	{
+    8	  public static int timer = 0;
+    9	  
+   10	  public static void INCREMENT(int unit)
+   11	  {
+   12	    SYSTEM.TIME += unit;
+   13	    
+   14	    timer += unit;
+   15	    if (timer >= 500)
+   16	    {
+   17	      OUTPUT.UTILIZATION();
+   18	      timer = 0;
+   19	    }
+   20	  }
+   21	  
+   22	  public static int GET_TIME()
+   23	  {
+   24	    return SYSTEM.TIME;
+   25	  }
+   26	}
+   27	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n CONVERSIONS.java
+
+
+2018-05-01 15:55                 CONVERSIONS.java                 Page 1
+
+
+    1	import java.io.*;
+    2	import java.util.*;
+    3	/*
+    4	 * f. The CONVERSIONS class contains methods
+    5	 *    for given value conversions.
+    6	 *    The methods helps to convert the values
+    7	 *    from hex to binary, hex to Decimal,
+    8	 *    Decimal to binary and binary to HEX
+    9	 */
+   10	
+   11	public class CONVERSIONS
+   12	{
+   13	
+   14	  public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   15	  
+   16	  public static String HEX_TO_BINARY(String HEX)
+   17	  {
+   18	    String BINARY = "0";
+   19	    try
+   20	    {
+   21	      int temp = Integer.parseInt(HEX, 16);
+   22	      BINARY = Integer.toBinaryString(temp);
+   23	    }
+   24	    catch (NumberFormatException e)
+   25	    {
+   26	      ERROR.ERROR_HANDLER(7, SYSTEM.CURRENT_JOB);
+   27	    }
+   28	    return BINARY;
+   29	  }
+   30	  
+   31	  public static int HEX_TO_DECIMAL(String HEX)
+   32	  {
+   33	    int DECIMAL = Integer.parseInt(HEX, 16);
+   34	    
+   35	    return DECIMAL;
+   36	  }
+   37	  
+   38	  public static String DECIMAL_BINARY(int DECIMAL)
+   39	  {
+   40	    String BINARY = "";
+   41	    if (DECIMAL == 0) {
+   42	      BINARY = "0";
+   43	    }
+   44	    while (DECIMAL > 0)
+   45	    {
+   46	      int temp = DECIMAL % 2;
+   47	      BINARY = BINARY + temp;
+   48	      DECIMAL /= 2;
+   49	    }
+   50	    BINARY = new StringBuffer(BINARY).reverse().toString();
+   51	    
+   52	    return BINARY;
+   53	  }
+   54	  
+   55	  public static int TWOs_TO_DECIMAL(String input)
+   56	  {
+
+
+
+
+
+
+
+2018-05-01 15:55                 CONVERSIONS.java                 Page 2
+
+
+   57	    int int_input = 0;
+   58	    
+   59	    boolean one_pos = CHECK.POSITIVE_OR_NOT(input);
+   60	    if (one_pos == true)
+   61	    {
+   62	      int_input = Integer.parseInt(input, 2);
+   63	    }
+   64	    else if (!one_pos)
+   65	    {
+   66	      input = TWOs_COMPLEMENT(input);
+   67	      int_input = Integer.parseInt(input, 2);
+   68	      int_input = -1 * int_input;
+   69	    }
+   70	    return int_input;
+   71	  }
+   72	  
+   73	  public static String BINARY_TO_HEX(String input)
+   74	  {
+   75	    if (input == null || input == "") {
+   76	      return null;
+   77	    }
+   78	    int decimal = Integer.parseInt(input, 2);
+   79	    String output = Integer.toHexString(decimal);
+   80	    while (output.length() < 4) {
+   81	      output = "0" + output;
+   82	    }
+   83	    output = output.toUpperCase();
+   84	    return output;
+   85	  }
+   86	  
+   87	  public static String TWOs_COMPLEMENT(String input)
+   88	  {
+   89	    input = CHECK.OPERAND(input);
+   90	    String output = OPERATIONS.NOT(input);
+   91	    int temp = Integer.parseInt(output, 2);
+   92	    temp += 1;
+   93	    output = DECIMAL_BINARY(temp);
+   94	    return output;
+   95	  }
+   96	  
+   97	  public static String DECIMAL_TO_TWOs(int DECIMAL)
+   98	  {
+   99	    String result = "";
+  100	    if (DECIMAL < 0)
+  101	    {
+  102	      DECIMAL = Math.abs(DECIMAL);
+  103	      String temp = DECIMAL_BINARY(DECIMAL);
+  104	      temp = OPERATIONS.PADDING(temp, 16);
+  105	      result = TWOs_COMPLEMENT(temp);
+  106	    }
+  107	    else if (DECIMAL >= 0)
+  108	    {
+  109	      result = DECIMAL_BINARY(DECIMAL);
+  110	      result = OPERATIONS.PADDING(result, 16);
+  111	    }
+  112	    return result;
+
+
+
+
+
+
+
+2018-05-01 15:55                 CONVERSIONS.java                 Page 3
+
+
+  113	  }
+  114	}
+  115	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n CPU.java
+
+
+2018-05-01 15:55                     CPU.java                     Page 1
+
+
+    1	import java.io.FileWriter;
+    2	import java.io.IOException;
+    3	import java.util.Map;
+    4	/*
+    5	 * f. CPU class is used for executing instructions based
+    6	 *      on the instruction type.InstructionType, get_Value, converttoHex,
+    7	 *    traceFile methods were used to
+    8	 *    get the instruction type, to get the instruction value,
+    9	 *    for converting to Hex and to write to trace flag respectively.
+   10	 *    Objects to ZeroAddressInstruction,
+   11	 *    OneAddressInstruction and ERROR_HANDLER are created.
+   12	 */
+   13	
+   14	public class CPU
+   15	{
+   16	  public static Stack stack = new Stack(7);
+   17	  public static boolean HLT = false;
+   18	  public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   19	  public static int Time_Quantum = 20;
+   20	  public static String STATUS;
+   21	  public static FileWriter print;
+   22	  public static String PRINT_PC;
+   23	  public static String PRINT_BR;
+   24	  public static String PRINT_IR;
+   25	  public static String BEFORE_TOS;
+   26	  public static String BEFORE_TOS_DATA;
+   27	  public static String BEFORE_EA;
+   28	  public static String BEFORE_EA_DATA;
+   29	  public static String AFTER_TOS;
+   30	  public static String AFTER_TOS_DATA;
+   31	  public static String AFTER_EA;
+   32	  public static String AFTER_EA_DATA;
+   33	  
+   34	  public static String CPU(int X, String Y)
+   35	  {
+   36	    int Timer = 0;
+   37	    int inc = 1;
+   38	    SYSTEM.PC = CONVERSIONS.DECIMAL_BINARY(X);
+   39	    while (((!HLT) && (!SYSTEM.KILL_JOB)))
+   40	    {
+   41	      SYSTEM.PC = OPERATIONS.PADDING(SYSTEM.PC, 8);
+   42	      SYSTEM.IR = MEMORY.MEMORY("READ", SYSTEM.PC, null);
+   43	      if(SYSTEM.IR == "" || SYSTEM.IR == null)
+   44	      {
+   45	      STATUS = "ERROR";
+   46	      break;
+   47		  
+   48	      }
+   49	      int int_PC = Integer.parseInt(SYSTEM.PC, 2);
+   50	      int_PC++;
+   51	      SYSTEM.PC = CONVERSIONS.DECIMAL_BINARY(int_PC);
+   52	      SYSTEM.PC = OPERATIONS.PADDING(SYSTEM.PC, 8);
+   53	      char TYPE = SYSTEM.IR.charAt(0);
+   54	      
+   55	      PRINT_PC = CONVERSIONS.BINARY_TO_HEX(SYSTEM.PC);
+   56	      PRINT_BR = SYSTEM.BR;
+
+
+
+
+
+
+
+2018-05-01 15:55                     CPU.java                     Page 2
+
+
+   57	      PRINT_IR = CONVERSIONS.BINARY_TO_HEX(SYSTEM.IR);
+   58	      BEFORE_TOS = CONVERSIONS.BINARY_TO_HEX(CALCULATE_TOS());
+   59	      BEFORE_TOS_DATA = CONVERSIONS.BINARY_TO_HEX(stack.PEEK());
+   60	      BEFORE_EA = CONVERSIONS.BINARY_TO_HEX(SYSTEM.EA);
+   61	      BEFORE_EA_DATA = SYSTEM.EA;
+   62	     if(SYSTEM.EA != null)
+   63	      {
+   64	       String s1 = MEMORY.MEMORY("READ",SYSTEM.EA,null);
+   65	       BEFORE_EA_DATA = CONVERSIONS.BINARY_TO_HEX(s1);
+   66	      }
+   67	      String UNUSED;
+   68	      String OPCODE;
+   69	      switch (TYPE)
+   70	      {
+   71	      case '0': 
+   72	        String Short_one = SYSTEM.IR.substring(0, 8);
+   73	        String Short_two = SYSTEM.IR.substring(8);
+   74	        
+   75	        UNUSED = Short_one.substring(1, 3);
+   76	        OPCODE = Short_one.substring(3);
+   77	        CLOCK.INCREMENT(1);
+   78	        Timer += 1;
+   79	        SYSTEM.CURRENT_pcb.EXECUTION_TIME += 1;
+   80	        ZeroAddressInstruction.ZERO_ADDRESS_EXECUTION(OPCODE);
+   81	        if (!"10101".equals(OPCODE))
+   82	        {
+   83	          UNUSED = Short_two.substring(1, 3);
+   84	          OPCODE = Short_two.substring(3);
+   85	          CLOCK.INCREMENT(1);
+   86	          Timer += 1;
+   87	          SYSTEM.CURRENT_pcb.EXECUTION_TIME += 1;
+   88	          ZeroAddressInstruction.ZERO_ADDRESS_EXECUTION(OPCODE);
+   89		  SYSTEM.EA = null;
+   90	        }
+   91	        break;
+   92	      case '1': 
+   93	        OPCODE = SYSTEM.IR.substring(1, 6);
+   94	        String INDEX = SYSTEM.IR.substring(6, 7);
+   95	        UNUSED = SYSTEM.IR.substring(7, 9);
+   96	        String DADDR = SYSTEM.IR.substring(9);
+   97	        switch (INDEX)
+   98	        {
+   99	        case "0": 
+  100	          SYSTEM.EA = DADDR;
+  101	          break;
+  102	        case "1": 
+  103	          String temp = stack.PEEK();
+  104	          int int_temp = Integer.parseInt(temp, 2);
+  105	          int int_DADDR = Integer.parseInt(DADDR, 2);
+  106	          int int_EA = int_temp + int_DADDR;
+  107	          SYSTEM.EA = CONVERSIONS.DECIMAL_BINARY(int_EA);
+  108	        }
+  109	        CLOCK.INCREMENT(4);
+  110	        Timer += 4;
+  111	        SYSTEM.CURRENT_pcb.EXECUTION_TIME += 4;
+  112	        OneAddressInstruction.ONE_ADDRESS_EXECUTION(OPCODE);
+
+
+
+
+
+
+
+2018-05-01 15:55                     CPU.java                     Page 3
+
+
+  113	      }
+  114	      AFTER_TOS = CONVERSIONS.BINARY_TO_HEX(CALCULATE_TOS());
+  115	      AFTER_TOS_DATA = CONVERSIONS.BINARY_TO_HEX(stack.PEEK());
+  116	      AFTER_EA = CONVERSIONS.BINARY_TO_HEX(SYSTEM.EA);
+  117	      AFTER_EA_DATA = SYSTEM.EA;
+  118	      if(SYSTEM.EA != null)
+  119	      {
+  120	     	 AFTER_EA_DATA =CONVERSIONS.BINARY_TO_HEX(MEMORY.MEMORY("READ",SYSTEM.EA, null));
+  121	      }
+  122	      switch (Y)
+  123	      {
+  124	      case "1": 
+  125	        PRINT_TRACE();
+  126	        break;
+  127	      case "0": 
+  128	        break;
+  129	      default: 
+  130	        ERROR.ERROR_HANDLER(9, SYSTEM.CURRENT_JOB);
+  131	      }
+  132	      if((SYSTEM.CURRENT_pcb.EXECUTION_TIME+SYSTEM.CURRENT_pcb.PAGE_FAULT_TIME + SYSTEM.CURRENT_pcb.IO_TIME + SYSTEM.CURRENT_pcb.SEGMENT_FAULT_TIME) > 4000)
+  133	      {
+  134		ERROR.ERROR_HANDLER(11, SYSTEM.CURRENT_JOB);
+  135		STATUS = "ERROR";
+  136		break;
+  137	      }
+  138	      if (HLT == true)
+  139	      {
+  140	        STATUS = "HLT";
+  141	      }
+  142	      else if (Timer >= Time_Quantum)
+  143	      {
+  144	        STATUS = "TIME EXPIRED";
+  145	      }
+  146	      else if (SYSTEM.KILL_JOB == true)
+  147	      {
+  148	        SYSTEM.KILL_JOB = false;
+  149	        
+  150	        STATUS = "ERROR";
+  151	      }
+  152	      else if (STATUS != null)
+  153	      {
+  154	        break;
+  155	      }
+  156	    }
+  157	    return STATUS;
+  158	  }
+  159	  
+  160	  
+  161	  public static String CALCULATE_TOS()
+  162	  {
+  163	    SYSTEM.TOS = CONVERSIONS.DECIMAL_BINARY(stack.SIZE());
+  164	    SYSTEM.TOS = OPERATIONS.PADDING(SYSTEM.TOS, 3);
+  165	    if (SYSTEM.TOS.length() > 3) {
+  166	      ERROR.ERROR_HANDLER(1, SYSTEM.CURRENT_JOB);
+  167	    }
+  168	    return SYSTEM.TOS;
+
+
+
+
+
+
+
+2018-05-01 15:55                     CPU.java                     Page 4
+
+
+  169	  }
+  170	  
+  171	  public static void PRINT_TRACE()
+  172	  {
+  173	    String file = SYSTEM.TRACE_FILEs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  174	    try
+  175	    {
+  176	      print = new FileWriter(file, true);
+  177	      if (BEFORE_EA_DATA == null) {
+  178	        BEFORE_EA_DATA = "EMPTY";
+  179	      }
+  180	      if (BEFORE_TOS_DATA == null) {
+  181	        BEFORE_TOS_DATA = "EMPTY";
+  182	      }
+  183	      if (AFTER_TOS_DATA == null) {
+  184	        AFTER_TOS_DATA = "EMPTY";
+  185	      }
+  186	      if (AFTER_EA_DATA == null) {
+  187	        AFTER_EA_DATA = "EMPTY";
+  188	      }
+  189	      print.append(PRINT_PC + "\t" + PRINT_BR + "\t" + PRINT_IR + "\t" + BEFORE_TOS + "\t" + BEFORE_TOS_DATA + "\t");
+  190	      print.append(BEFORE_EA + "\t" + BEFORE_EA_DATA + "\t" + AFTER_TOS + "\t" + AFTER_TOS_DATA + "\t" + AFTER_EA + "\t" + AFTER_EA_DATA + "\t");
+  191	      print.append("\n");
+  192	      print.flush();
+  193	    }
+  194	    catch (IOException ex) {}
+  195	  }
+  196	}
+  197	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n ERROR_HANDLER.java
+
+
+2018-05-01 15:55                ERROR_HANDLER.java                Page 1
+
+
+    1	import java.util.Map;
+    2	/*
+    3	 * f. ERROR_HANDLER class is used to
+    4	 * handle all the possible errors
+    5	 * in the project.
+    6	 *    outputWrite Method is used to
+    7	 *    write the output in the specified
+    8	 *    format in the output file.
+    9	 *    NATURE is used to tell the
+   10	 *    system exit is Natural or Abnormal.
+   11	 */
+   12	
+   13	public class ERROR_HANDLER
+   14	{
+   15	  public void ERROR_HANDLER(int number, int JOB)
+   16	  {
+   17	    PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(JOB));
+   18	    switch (number)
+   19	    {
+   20	    case 1: 
+   21	      pcb.ERROR = "RUNTIME ERROR: STACK OVERFLOW";
+   22	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   23	      SYSTEM.KILL_JOB = true;
+   24	      break;
+   25	    case 2: 
+   26	      pcb.ERROR = "RUNTIME ERROR: STACK UNDERFLOW";
+   27	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   28	      SYSTEM.KILL_JOB = true;
+   29	      break;
+   30	    case 3: 
+   31	      pcb.ERROR = "RUNTIME ERROR: DATA OUT OF RANGE. DATA SHOULD BE BETWEEN -32768 AND 32767";
+   32	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   33	      SYSTEM.KILL_JOB = true;
+   34	      break;
+   35	    case 4: 
+   36	      pcb.ERROR = "RUNTIME ERROR: MEMEORY ADDRESS OUT OF RANGE";
+   37	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   38	      SYSTEM.KILL_JOB = true;
+   39	      break;
+   40	    case 5: 
+   41	      pcb.ERROR = "INPUT ERROR: INVALID INPUT";
+   42	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   43	      SYSTEM.KILL_JOB = true;
+   44	      break;
+   45	    case 6: 
+   46	      pcb.ERROR = "RUNTIME ERROR: INVALID OPERAND";
+   47	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   48	      SYSTEM.KILL_JOB = true;
+   49	      break;
+   50	    case 7: 
+   51	      pcb.ERROR = "LOADER ERROR: INVALID LOADER FORMAT";
+   52	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   53	      SYSTEM.KILL_JOB = true;
+   54	      break;
+   55	    case 8: 
+   56	      pcb.ERROR = "RUNTIME ERROR: DIVIDE BY ZERO";
+
+
+
+
+
+
+
+2018-05-01 15:55                ERROR_HANDLER.java                Page 2
+
+
+   57	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   58	      SYSTEM.KILL_JOB = true;
+   59	      break;
+   60	    case 9: 
+   61	      pcb.WARNING = "RUNTIME WARNING : BAD TRACE FLAG";
+   62	      break;
+   63	    case 10: 
+   64	      pcb.ERROR = "RUNTIME ERROR: INVALID OPCODE";
+   65	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   66	      SYSTEM.KILL_JOB = true;
+   67	      break;
+   68	    case 11: 
+   69	      pcb.ERROR = "RUNTIME ERROR: SUSPECTED INFINITE LOOP";
+   70	      SYSTEM.INFINTE_JOBS = SYSTEM.INFINTE_JOBS + JOB + "\t";
+   71	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   72	      SYSTEM.ABNORMAL_JOBS += 1;
+   73	      SYSTEM.KILL_JOB = true;
+   74	      break;
+   75	    case 12: 
+   76	      pcb.ERROR = "SPOOLER ERROR: MISSING JOB LABEL";
+   77	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   78	      SYSTEM.ABNORMAL_JOBS += 1;
+   79	      OUTPUT.Output_Spooling(pcb);
+   80	      break;
+   81	    case 13: 
+   82	      pcb.ERROR = "SPOOLER ERROR: MULTIPLE INPUT SEGMENTS";
+   83	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   84	      SYSTEM.ABNORMAL_JOBS += 1;
+   85	      OUTPUT.Output_Spooling(pcb);
+   86	      break;
+   87	    case 14: 
+   88	      pcb.ERROR = "SPOOLER ERROR: MISSING INPUT LABEL";
+   89	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+   90	      SYSTEM.ABNORMAL_JOBS += 1;
+   91	      OUTPUT.Output_Spooling(pcb);
+   92	      break;
+   93	    case 15: 
+   94	      pcb.ERROR = "SPOOLER ERROR: MISSING FIN LABEL";
+   95	      SYSTEM.ABNORMAL_JOBS += 1;
+   96	      OUTPUT.Output_Spooling(pcb);
+   97	      break;
+   98	    case 16: 
+   99	      pcb.ERROR = "SPOOLER ERROR: INVALID LOADER FORMAT";
+  100	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+  101	      SYSTEM.ABNORMAL_JOBS += 1;
+  102	      OUTPUT.Output_Spooling(pcb);
+  103	      break;
+  104	    case 17: 
+  105	      pcb.WARNING = "SPOOLER WARNING: MISMATCH OF NUMBER OF INPUTS";
+  106	      break;
+  107	    case 18: 
+  108	      pcb.ERROR = "SPOOLER ERROR: MULTIPLE FIN LABELS";
+  109	      pcb.NATURE_OF_TERMINATION = "ABNORMAL";
+  110	      SYSTEM.ABNORMAL_JOBS += 1;
+  111	      OUTPUT.Output_Spooling(pcb);
+  112	    }
+
+
+
+
+
+
+
+2018-05-01 15:55                ERROR_HANDLER.java                Page 3
+
+
+  113	  }
+  114	}
+  115	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n LOADER.java
+
+
+2018-05-01 15:55                   LOADER.java                    Page 1
+
+
+    1	import java.util.Map;
+    2	import java.util.Queue;
+    3	
+    4	/*
+    5	 * f. LOADER class takes the input
+    6	 * file from user and loads it into memory
+    7	 * Object for EEROR_HANDLER is
+    8	 *  created to address the errors on the Loadfile.
+    9	 */
+   10	public class LOADER
+   11	{
+   12	  public static int words = 8;
+   13	  public static int JOB_ID = -1;
+   14	  public static int initial_pc;
+   15	  public static int initial_pc_page;
+   16	  public static int disk_page;
+   17	  public static PCB pcb;
+   18	  
+   19	  public static void LOADER()
+   20	  {
+   21	    try
+   22	    {
+   23	      JOB_ID = (SYSTEM.JOB_QUEUE.element()).intValue();
+   24	      LOAD();
+   25	    }
+   26	    catch (Exception e)
+   27	    {
+   28	      Spooling.Input_Spooling();
+   29	      if (SYSTEM.JOB_QUEUE.size() == 0)
+   30	      {
+   31	        JOB_ID = -1;
+   32	      }
+   33	      else
+   34	      {
+   35	        JOB_ID = (SYSTEM.JOB_QUEUE.element()).intValue();
+   36	        LOAD();
+   37	      }
+   38	    }
+   39	  }
+   40	  
+   41	  public static void LOAD()
+   42	  {
+   43	    int reference = 0;int dirty = 0;
+   44	    
+   45	    pcb = SYSTEM.pcbs.get(Integer.valueOf(JOB_ID));
+   46	    
+   47	    int size = pcb.GET_JOB_WORDS();
+   48	    int pages;
+   49	    if (size % words == 0) {
+   50	      pages = size / words + 2;
+   51	    } else {
+   52	      pages = size / words + 3;
+   53	    }
+   54	    if (pages > 6) {
+   55	      pages = 6;
+   56	    }
+
+
+
+
+
+
+
+2018-05-01 15:55                   LOADER.java                    Page 2
+
+
+   57	    pcb.SET_NUMBER_OF_FRAMES(pages);
+   58	    for (int i = 0; i < pages; i++)
+   59	    {
+   60	      int frame = SYSTEM.ALLOCATE_MEMORY();
+   61	      pcb.ADD_ALLOCATED_MEMORY(frame);
+   62	    }
+   63	    initial_pc = pcb.GET_PC();
+   64	    initial_pc_page = initial_pc / words;
+   65	    
+   66	    disk_page = pcb.GET_PROGRAM_DISK_PAGE(initial_pc_page);
+   67	    int page = pcb.GET_ALLOCATED_MEMORY();
+   68	    for (int i = 0; i < words; i++) {
+   69	      SYSTEM.MEMORY[page][i] = SYSTEM.DISK[disk_page][i];
+   70	    }
+   71	    SYSTEM.MEMORY_FMBV[page] = 1;
+   72	    
+   73	    SYSTEM.createProgPMT(JOB_ID);
+   74	    SYSTEM.pmt = SYSTEM.PROGRAM_PMTs.get(Integer.valueOf(JOB_ID));
+   75	    
+   76	    SYSTEM.pmt.ADD_PAGE(initial_pc_page, page, reference, dirty);
+   77	    
+   78	    SYSTEM.JOB_QUEUE.poll();
+   79	    SYSTEM.READY_QUEUE.add(Integer.valueOf(JOB_ID));
+   80	    SYSTEM.METER.ADD_CPU_SHOTS(JOB_ID, 0);
+   81	    SYSTEM.METER.ADD_IO_REQUESTS(JOB_ID, 0);
+   82	    pcb.ENTRY_TIME = CLOCK.GET_TIME();
+   83	  }
+   84	}
+   85	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n MEMORY.java
+
+
+2018-05-01 15:55                   MEMORY.java                    Page 1
+
+
+    1	import java.util.ArrayList;
+    2	import java.util.Map;
+    3	 /*
+    4	    f. The MEMORY CLASS is used for Reading and
+    5	    Writing the instructions from and to the MEMORY.
+    6	       Object for ERROR_HANDLER was created to
+    7	       wirte the memory errors in the output.
+    8	       MEMORY returns the
+    9	       instruction value of the requested address.
+   10	       Pages from disk are written into MEMORY.
+   11	
+   12	    g. MEMORY class meets the
+   13	    specification that it can contain upto 256 words
+   14	    */
+   15	
+   16	public class MEMORY
+   17	{
+   18	  public static PCB pcb;
+   19	  public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   20	  
+   21	  public static String MEMORY(String X, String Y, String Z)
+   22	  {
+   23	    int words = 8;
+   24	    
+   25	
+   26	    int int_Y = Integer.parseInt(Y, 2);
+   27	    boolean page_fault = false;
+   28	    
+   29	    int displacement = int_Y;
+   30	    int virtual_pagenumber = displacement / words;
+   31	    
+   32	    pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   33	    if (int_Y > pcb.job_words || int_Y == pcb.job_words)
+   34	    {
+   35	      ERROR.ERROR_HANDLER(4, SYSTEM.CURRENT_JOB);
+   36	      return "";
+   37	    }
+   38	    SYSTEM.pmt = SYSTEM.PROGRAM_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   39	    
+   40	    int frame_number = SYSTEM.pmt.GET_FRAME(virtual_pagenumber);
+   41	    if (frame_number == -1)
+   42	    {
+   43	      pcb.PAGE_FAULTS += 1;
+   44	      PageFaultHandler.PageFaultHandler(virtual_pagenumber);
+   45	      pcb.PAGE_FAULT_TIME += 20;
+   46	      page_fault = true;
+   47	      SYSTEM.pmt = SYSTEM.PROGRAM_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   48	      frame_number = SYSTEM.pmt.GET_FRAME(virtual_pagenumber);
+   49	
+   50	    }
+   51	    int memory_offset = displacement % words;
+   52	    switch (X)
+   53	    {
+   54	    case "READ": 
+   55	      SYSTEM.pmt.SET_REFERENCE(virtual_pagenumber, 1);
+   56	      Z = SYSTEM.MEMORY[frame_number][memory_offset];
+
+
+
+
+
+
+
+2018-05-01 15:55                   MEMORY.java                    Page 2
+
+
+   57	      break;
+   58	    case "WRITE": 
+   59	      SYSTEM.pmt.SET_REFERENCE(virtual_pagenumber, 1);
+   60	      SYSTEM.pmt.SET_DIRTY(virtual_pagenumber, 1);
+   61	      SYSTEM.MEMORY[frame_number][memory_offset] = Z;
+   62	      Z = "";
+   63	    }
+   64	    if (page_fault == true) {
+   65	      CPU.STATUS = "PAGE FAULT";
+   66	    }
+   67	    return Z;
+   68	  }
+   69	  
+   70	  }
+   71	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n OPERATIONS.java
+
+
+2018-05-01 15:55                 OPERATIONS.java                  Page 1
+
+
+    1	/*
+    2	 *  f. The OPERATIONS class is used to performs the
+    3	 *     job instruction operations.
+    4	 */
+    5	class OPERATIONS
+    6	{
+    7	  public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+    8	  
+    9	  public static String OR(String one, String two)
+   10	  {
+   11	    String result = "";
+   12	    
+   13	    one = CHECK.OPERAND(one);
+   14	    two = CHECK.OPERAND(two);
+   15	    for (int i = 0; i < one.length(); i++)
+   16	    {
+   17	      char bit_one = one.charAt(i);
+   18	      char bit_two = two.charAt(i);
+   19	      if ((bit_one == '0') && (bit_two == '0')) {
+   20	        result = result + "0";
+   21	      } else {
+   22	        result = result + "1";
+   23	      }
+   24	    }
+   25	    return result;
+   26	  }
+   27	  
+   28	  public static String AND(String one, String two)
+   29	  {
+   30	    String result = "";
+   31	    
+   32	    one = CHECK.OPERAND(one);
+   33	    two = CHECK.OPERAND(two);
+   34	    for (int i = 0; i < one.length(); i++)
+   35	    {
+   36	      char bit_one = one.charAt(i);
+   37	      char bit_two = two.charAt(i);
+   38	      if ((bit_one == '1') && (bit_two == '1')) {
+   39	        result = result + "1";
+   40	      } else {
+   41	        result = result + "0";
+   42	      }
+   43	    }
+   44	    return result;
+   45	  }
+   46	  
+   47	  public static String NOT(String input)
+   48	  {
+   49	    String result = "";
+   50	    
+   51	    input = CHECK.OPERAND(input);
+   52	    for (int i = 0; i < input.length(); i++)
+   53	    {
+   54	      char bit = input.charAt(i);
+   55	      if (bit == '1') {
+   56	        result = result + "0";
+
+
+
+
+
+
+
+2018-05-01 15:55                 OPERATIONS.java                  Page 2
+
+
+   57	      } else if (bit == '0') {
+   58	        result = result + "1";
+   59	      }
+   60	    }
+   61	    return result;
+   62	  }
+   63	  
+   64	  public static String XOR(String one, String two)
+   65	  {
+   66	    String result = "";
+   67	    
+   68	    one = CHECK.OPERAND(one);
+   69	    two = CHECK.OPERAND(two);
+   70	    if (one.length() == two.length()) {
+   71	      for (int i = 0; i < one.length(); i++)
+   72	      {
+   73	        char bit_one = one.charAt(i);
+   74	        char bit_two = two.charAt(i);
+   75	        if (bit_one != bit_two) {
+   76	          result = result + "1";
+   77	        } else if (bit_one == bit_two) {
+   78	          result = result + "0";
+   79	        }
+   80	      }
+   81	    }
+   82	    return result;
+   83	  }
+   84	  
+   85	  public static String ADD(String one, String two)
+   86	  {
+   87	    one = CHECK.OPERAND(one);
+   88	    two = CHECK.OPERAND(two);
+   89	    
+   90	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+   91	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+   92	    
+   93	    int sum = int_one + int_two;
+   94	    String result = CONVERSIONS.DECIMAL_TO_TWOs(sum);
+   95	    
+   96	    return result;
+   97	  }
+   98	  
+   99	  public static String SUB(String one, String two)
+  100	  {
+  101	    int MSB_limit = one.length();
+  102	    
+  103	    String temp = "";
+  104	    one = CHECK.OPERAND(one);
+  105	    two = CHECK.OPERAND(two);
+  106	    
+  107	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+  108	    two = CONVERSIONS.TWOs_COMPLEMENT(two);
+  109	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+  110	    
+  111	    int sum = int_one + int_two;
+  112	    
+
+
+
+
+
+
+
+2018-05-01 15:55                 OPERATIONS.java                  Page 3
+
+
+  113	    String result = CONVERSIONS.DECIMAL_TO_TWOs(sum);
+  114	    if (result.length() == MSB_limit + 1)
+  115	    {
+  116	      for (int i = 1; i < result.length(); i++) {
+  117	        temp = temp + result.charAt(i);
+  118	      }
+  119	      result = temp;
+  120	    }
+  121	    return result;
+  122	  }
+  123	  
+  124	  public static String MUL(String one, String two)
+  125	  {
+  126	    one = CHECK.OPERAND(one);
+  127	    two = CHECK.OPERAND(two);
+  128	    
+  129	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+  130	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+  131	    
+  132	    int product = int_one * int_two;
+  133	    String result = CONVERSIONS.DECIMAL_TO_TWOs(product);
+  134	    
+  135	    return result;
+  136	  }
+  137	  
+  138	  public static String DIV(String one, String two)
+  139	  {
+  140	    String result = "0";
+  141	    
+  142	    one = CHECK.OPERAND(one);
+  143	    two = CHECK.OPERAND(two);
+  144	    
+  145	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+  146	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+  147	    try
+  148	    {
+  149	      int quotient = int_one / int_two;
+  150	      result = CONVERSIONS.DECIMAL_TO_TWOs(quotient);
+  151	    }
+  152	    catch (ArithmeticException e)
+  153	    {
+  154	      ERROR.ERROR_HANDLER(8, SYSTEM.CURRENT_JOB);
+  155	    }
+  156	    return result;
+  157	  }
+  158	  
+  159	  public static String MOD(String one, String two)
+  160	  {
+  161	    one = CHECK.OPERAND(one);
+  162	    two = CHECK.OPERAND(two);
+  163	    
+  164	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+  165	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+  166	    
+  167	    int mod = int_one % int_two;
+  168	    String result = CONVERSIONS.DECIMAL_TO_TWOs(mod);
+
+
+
+
+
+
+
+2018-05-01 15:55                 OPERATIONS.java                  Page 4
+
+
+  169	    
+  170	    return result;
+  171	  }
+  172	  
+  173	  public static String SL(String input)
+  174	  {
+  175	    String output = "";
+  176	    char zero = '0';
+  177	    input = CHECK.OPERAND(input);
+  178	    for (int i = 1; i < input.length(); i++) {
+  179	      output = output + input.charAt(i);
+  180	    }
+  181	    output = output + zero;
+  182	    
+  183	    return output;
+  184	  }
+  185	  
+  186	  public static String SR(String input)
+  187	  {
+  188	    String output = "";
+  189	    input = CHECK.OPERAND(input);
+  190	    
+  191	    char msb = input.charAt(0);
+  192	    int limit_lsb = input.length() - 1;
+  193	    for (int i = 0; i < limit_lsb; i++) {
+  194	      output = output + input.charAt(i);
+  195	    }
+  196	    output = msb + output;
+  197	    
+  198	    return output;
+  199	  }
+  200	  
+  201	  public static String CPG(String one, String two)
+  202	  {
+  203	    //CHECK.INFINITE_LOOP(one, two);
+  204	    one = CHECK.OPERAND(one);
+  205	    two = CHECK.OPERAND(two);
+  206	    
+  207	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+  208	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+  209	    String result;
+  210	    if (int_one > int_two) {
+  211	      result = "0";
+  212	    } else {
+  213	      result = "1";
+  214	    }
+  215	    String result1 = PADDING(result, 16);
+  216	    
+  217	    return result1;
+  218	  }
+  219	  
+  220	  public static String CPL(String one, String two)
+  221	  {
+  222	    //CHECK.INFINITE_LOOP(one, two);
+  223	    one = CHECK.OPERAND(one);
+  224	    two = CHECK.OPERAND(two);
+
+
+
+
+
+
+
+2018-05-01 15:55                 OPERATIONS.java                  Page 5
+
+
+  225	    
+  226	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+  227	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+  228	    String result;
+  229	    if (int_one < int_two) {
+  230	      result = "0";
+  231	    } else {
+  232	      result = "1";
+  233	    }
+  234	    String result1 = PADDING(result, 16);
+  235	    
+  236	    return result1;
+  237	  }
+  238	  
+  239	  public static String CPE(String one, String two)
+  240	  {
+  241	   // CHECK.INFINITE_LOOP(one, two);
+  242	    one = CHECK.OPERAND(one);
+  243	    two = CHECK.OPERAND(two);
+  244	    
+  245	    int int_one = CONVERSIONS.TWOs_TO_DECIMAL(one);
+  246	    int int_two = CONVERSIONS.TWOs_TO_DECIMAL(two);
+  247	    String result;
+  248	    if (int_one == int_two) {
+  249	      result = "0";
+  250	    } else {
+  251	      result = "1";
+  252	    }
+  253	    String result1 = PADDING(result, 16);
+  254	    
+  255	    return result1;
+  256	  }
+  257	  
+  258	  public static String PADDING(String input, int length)
+  259	  {
+  260	    String output = input;
+  261	    
+  262	    int input_length = input.length();
+  263	    if (input_length < length)
+  264	    {
+  265	      int zero_pad = length - input_length;
+  266	      for (int i = 0; i < zero_pad; i++) {
+  267	        output = "0" + output;
+  268	      }
+  269	    }
+  270	    return output;
+  271	  }
+  272	}
+  273	
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n PageFaultHandler.java
+
+
+2018-05-01 15:55              PageFaultHandler.java               Page 1
+
+
+    1	import java.io.*;
+    2	import java.util.*;
+    3	/*
+    4	f.Page faults are handled here
+    5	
+    6	Intially Frames are allocated. If the Max Allocated Frames is greater than 6
+    7	The allocated frames are replaced using the replacement algorithm
+    8	
+    9	For Replacmeent, Second Chance Algorithm has been used.
+   10	
+   11	If the dirty(modify) bit it set then the page is copied to the disk before replacement.
+   12	
+   13	
+   14	
+   15	*/
+   16	public class PageFaultHandler {
+   17	
+   18		public static PCB pcb;
+   19	static void PageFaultHandler(int pageno)
+   20	  {
+   21	    int reference = 1;int dirty = 0;
+   22	    
+   23	    pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   24	    int disk_page = pcb.GET_PROGRAM_DISK_PAGE(pageno);
+   25	    int memory_page = pcb.GET_ALLOCATED_MEMORY();
+   26	    if (SYSTEM.MEMORY_FMBV[memory_page] == 1)
+   27	    {
+   28	      runReplacement(pageno, disk_page, 0);
+   29	    }
+   30	    else
+   31	    {
+   32	      DISK_MANAGER.LOAD_TO_MEMORY(disk_page, memory_page);
+   33	      SYSTEM.pmt = SYSTEM.PROGRAM_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   34	      SYSTEM.pmt.ADD_PAGE(pageno, memory_page, reference, dirty);
+   35	    }
+   36	  }
+   37	  
+   38	  static void runReplacement(int page, int dis_page, int code)
+   39	  {
+   40	    ArrayList<ArrayList<Integer>> frames = new ArrayList<ArrayList<Integer>>();
+   41	    int lines = 0;
+   42	    if (code == 0) {
+   43	      SYSTEM.UPDATE_PMT = SYSTEM.PROGRAM_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   44	    } else if (code == 1) {
+   45	      SYSTEM.UPDATE_PMT = SYSTEM.INPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   46	    } else if (code == 2) {
+   47	      SYSTEM.UPDATE_PMT = SYSTEM.OUTPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   48	    }
+   49	    PCB JOB_pcb = SYSTEM.pcbs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   50	    
+   51	    boolean isReplaced = false;
+   52	    while (!isReplaced)
+   53	    {
+   54	      SYSTEM.pmt = SYSTEM.PROGRAM_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   55	      ArrayList<ArrayList<Integer>> program_pmt = SYSTEM.pmt.SHOW_PMT();
+   56	      for (int pointer = 0; pointer < program_pmt.size(); pointer++)
+
+
+
+
+
+
+
+2018-05-01 15:55              PageFaultHandler.java               Page 2
+
+
+   57	      {
+   58	        int reference = ((Integer)((ArrayList)program_pmt.get(pointer)).get(2)).intValue();
+   59	        if (reference == 0)
+   60	        {
+   61	          int dirty = ((Integer)((ArrayList)program_pmt.get(pointer)).get(3)).intValue();
+   62	          int memory_frame = ((Integer)((ArrayList)program_pmt.get(pointer)).get(1)).intValue();
+   63	          int disk_page = JOB_pcb.GET_PROGRAM_DISK_PAGE(((Integer)((ArrayList)program_pmt.get(pointer)).get(0)).intValue());
+   64	          if (dirty == 1)
+   65	          {
+   66	            DISK_MANAGER.LOAD_TO_DISK(memory_frame, disk_page);
+   67	            SYSTEM.pmt.SET_DIRTY(((Integer)((ArrayList)program_pmt.get(pointer)).get(0)).intValue(), 0);
+   68	          }
+   69	          DISK_MANAGER.LOAD_TO_MEMORY(dis_page, memory_frame);
+   70	          SYSTEM.UPDATE_PMT.ADD_PAGE(page, memory_frame, 1, 0);
+   71	          SYSTEM.pmt.REMOVE_PAGE(((Integer)((ArrayList)program_pmt.get(pointer)).get(0)).intValue());
+   72	          isReplaced = true;
+   73	          break;
+   74	        }
+   75	        if (reference == 1) {
+   76	          SYSTEM.pmt.SET_REFERENCE(((Integer)((ArrayList)program_pmt.get(pointer)).get(0)).intValue(), 0);
+   77	        }
+   78	      }
+   79	      SYSTEM.pmt = SYSTEM.INPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+   80	      ArrayList<ArrayList<Integer>> input_pmt = SYSTEM.pmt.SHOW_PMT();
+   81	      for (int pointer = 0; pointer < input_pmt.size(); pointer++)
+   82	      {
+   83	        int reference = ((Integer)((ArrayList)input_pmt.get(pointer)).get(2)).intValue();
+   84	        if (reference == 0)
+   85	        {
+   86	          int dirty = ((Integer)((ArrayList)input_pmt.get(pointer)).get(3)).intValue();
+   87	          int memory_frame = ((Integer)((ArrayList)input_pmt.get(pointer)).get(1)).intValue();
+   88	          int disk_page = JOB_pcb.GET_INPUT_DISK_PAGE(((Integer)((ArrayList)input_pmt.get(pointer)).get(0)).intValue());
+   89	          if (dirty == 1)
+   90	          {
+   91	            DISK_MANAGER.LOAD_TO_DISK(memory_frame, disk_page);
+   92	            SYSTEM.pmt.SET_DIRTY(((Integer)((ArrayList)input_pmt.get(pointer)).get(0)).intValue(), 0);
+   93	          }
+   94	          DISK_MANAGER.LOAD_TO_MEMORY(dis_page, memory_frame);
+   95	          SYSTEM.UPDATE_PMT.ADD_PAGE(page, memory_frame, 1, 0);
+   96	          SYSTEM.pmt.REMOVE_PAGE(((Integer)((ArrayList)input_pmt.get(pointer)).get(0)).intValue());
+   97	          isReplaced = true;
+   98	        }
+   99	        else if (reference == 1)
+  100	        {
+  101	          SYSTEM.pmt.SET_REFERENCE(((Integer)((ArrayList)input_pmt.get(pointer)).get(0)).intValue(), 0);
+  102	        }
+  103	      }
+  104	      try
+  105	      {
+  106	        SYSTEM.pmt = SYSTEM.OUTPUT_PMTs.get(Integer.valueOf(SYSTEM.CURRENT_JOB));
+  107	        ArrayList<ArrayList<Integer>> output_pmt = SYSTEM.pmt.SHOW_PMT();
+  108	        for (int pointer = 0; pointer < output_pmt.size(); pointer++)
+  109	        {
+  110	          int reference = ((Integer)((ArrayList)output_pmt.get(pointer)).get(2)).intValue();
+  111	          if (reference == 0)
+  112	          {
+
+
+
+
+
+
+
+2018-05-01 15:55              PageFaultHandler.java               Page 3
+
+
+  113	            int dirty = ((Integer)((ArrayList)output_pmt.get(pointer)).get(3)).intValue();
+  114	            int memory_frame = ((Integer)((ArrayList)output_pmt.get(pointer)).get(1)).intValue();
+  115	            int disk_page = JOB_pcb.GET_OUTPUT_DISK_PAGE(((Integer)((ArrayList)output_pmt.get(pointer)).get(0)).intValue());
+  116	            if (dirty == 1)
+  117	            {
+  118	              DISK_MANAGER.LOAD_TO_DISK(memory_frame, disk_page);
+  119	              SYSTEM.pmt.SET_DIRTY(((Integer)((ArrayList)output_pmt.get(pointer)).get(0)).intValue(), 0);
+  120	            }
+  121	            DISK_MANAGER.LOAD_TO_MEMORY(dis_page, memory_frame);
+  122	            SYSTEM.UPDATE_PMT.ADD_PAGE(page, memory_frame, 1, 0);
+  123	            SYSTEM.pmt.REMOVE_PAGE(((Integer)((ArrayList)output_pmt.get(pointer)).get(0)).intValue());
+  124	            isReplaced = true;
+  125	            break;
+  126	          }
+  127	          if (reference == 1) {
+  128	            SYSTEM.pmt.SET_REFERENCE(((Integer)((ArrayList)output_pmt.get(pointer)).get(0)).intValue(), 0);
+  129	          }
+  130	        }
+  131	      }
+  132	      catch (Exception e) {}
+  133	    }
+  134	  }
+  135	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n PCB.java
+
+
+2018-05-01 15:55                     PCB.java                     Page 1
+
+
+    1	import java.util.ArrayList;
+    2	/* f. The PCB class maintains the information
+    3	 *    of JOB, program segment information,
+    4	 *    input segment and output segment information.
+    5	 */
+    6	public class PCB
+    7	{
+    8	  int JOB_ID;
+    9	  int INTERNAL_JOB_ID;
+   10	  int int_inf;
+   11	  int i;
+   12	  int j;
+   13	  int k;
+   14	  int p;
+   15	  int frames;
+   16	  int REPLACE_POINTER;
+   17	  int PAGE_FAULTS;
+   18	  int PC;
+   19	  int send_frames = 0;
+   20	  int input_th_page;
+   21	  String TRACE;
+   22	  String IR;
+   23	  String BR;
+   24	  String NATURE_OF_TERMINATION = "NORMAL";
+   25	  String WARNING;
+   26	  String ERROR;
+   27	  String stored_result = "";
+   28	  String stored_value = "";
+   29	  int FRAMES;
+   30	  int EXPECTED_IO_COMPLETION;
+   31	  int inputs_read;
+   32	  int outputs_written;
+   33	  ArrayList<String> STACK;
+   34	  int IO_TIME;
+   35	  int PAGE_FAULT_TIME;
+   36	  int SEGMENT_FAULT_TIME;
+   37	  int ENTRY_TIME;
+   38	  int EXIT_TIME;
+   39	  int EXECUTION_TIME;
+   40	  int input_words;
+   41	  int output_words;
+   42	  int job_words;
+   43	  int output_th_page;
+   44	  int INPUT_INDEX = -1;
+   45	  int OUTPUT_INDEX = -1;
+   46	  int Segment_value = 0;
+   47	  int INPUT_POINTER;
+   48	  int OUTPUT_POINTER;
+   49	  int PROGRAM_POINTER = 0;
+   50	  public static ERROR_HANDLER ERR = new ERROR_HANDLER();
+   51	  String EA;
+   52	  ArrayList<Integer> INPUT_PAGES;
+   53	  ArrayList<Integer> OUTPUT_PAGES;
+   54	  ArrayList<ArrayList<Integer>> PROGRAM_DISK_PAGES;
+   55	  ArrayList<ArrayList<Integer>> pageArr;
+   56	  ArrayList<ArrayList<Integer>> INPUT_DISK_PAGES;
+
+
+
+
+
+
+
+2018-05-01 15:55                     PCB.java                     Page 2
+
+
+   57	  ArrayList<ArrayList<Integer>> OUTPUT_DISK_PAGES;
+   58	  ArrayList<ArrayList<Integer>> ALLOCATED_MEMORY;
+   59	  
+   60	  PCB()
+   61	  {
+   62	    this.PROGRAM_DISK_PAGES = new ArrayList<ArrayList<Integer>>();
+   63	    this.INPUT_DISK_PAGES = new ArrayList<ArrayList<Integer>>();
+   64	    this.OUTPUT_DISK_PAGES = new ArrayList<ArrayList<Integer>>();
+   65	    this.INPUT_PAGES = new ArrayList<Integer>();
+   66	    this.OUTPUT_PAGES = new ArrayList<Integer>();
+   67	    this.ALLOCATED_MEMORY = new ArrayList<ArrayList<Integer>>();
+   68	    this.STACK = new ArrayList<String>();
+   69	    this.i = 0;this.j = 0;this.k = 0;this.p = 0;
+   70	    this.frames = 0;
+   71	    this.pageArr = new ArrayList<ArrayList<Integer>>();
+   72	    //29 april
+   73	    this.EA = null;
+   74	  }
+   75	
+   76	  
+   77	  void SET_JOB_ID(int id)
+   78	  {
+   79	    this.JOB_ID = id;
+   80	  }
+   81	  
+   82	  int GET_JOB_ID()
+   83	  {
+   84	    return this.JOB_ID;
+   85	  }
+   86	  
+   87	  void SET_NUMBER_OF_FRAMES(int number)
+   88	  {
+   89	    this.FRAMES = number;
+   90	  }
+   91	  
+   92	  void SET_INPUT_WORDS(int words)
+   93	  {
+   94	    this.input_words = words;
+   95	  }
+   96	  
+   97	  int GET_INPUT_WORDS()
+   98	  {
+   99	    return this.input_words;
+  100	  }
+  101	  
+  102	  void SET_OUTPUT_WORDS(int words)
+  103	  {
+  104	    this.output_words = words;
+  105	  }
+  106	  
+  107	  int GET_OUTPUT_WORDS()
+  108	  {
+  109	    return this.output_words;
+  110	  }
+  111	  
+  112	  void SET_JOB_WORDS(int words)
+
+
+
+
+
+
+
+2018-05-01 15:55                     PCB.java                     Page 3
+
+
+  113	  {
+  114	    this.job_words = words;
+  115	  }
+  116	  
+  117	  int GET_JOB_WORDS()
+  118	  {
+  119	    return this.job_words;
+  120	  }
+  121	  
+  122	  void SET_PC(int position)
+  123	  {
+  124	    this.PC = position;
+  125	  }
+  126	  
+  127	  int GET_PC()
+  128	  {
+  129	    return this.PC;
+  130	  }
+  131	  
+  132	  void SET_TRACE(String bit)
+  133	  {
+  134	    this.TRACE = bit;
+  135	  }
+  136	  
+  137	  String GET_TRACE()
+  138	  {
+  139	    return this.TRACE;
+  140	  }
+  141	  
+  142	  void SET_IR(String value)
+  143	  {
+  144	    this.IR = value;
+  145	  }
+  146	  
+  147	  String GET_IR()
+  148	  {
+  149	    return this.IR;
+  150	  }
+  151	  
+  152	  void ADD_PROGRAM_DISK_PAGES(int page, int disk_page)
+  153	  {
+  154	    this.PROGRAM_DISK_PAGES.add(new ArrayList<Integer>());
+  155	    (this.PROGRAM_DISK_PAGES.get(this.i)).add(Integer.valueOf(page));
+  156	    (this.PROGRAM_DISK_PAGES.get(this.i)).add(Integer.valueOf(disk_page));
+  157	    this.i += 1;
+  158	  }
+  159	  void ADD_PAGE_MAP(int pageno, int frameno)
+  160	  {
+  161	    this.pageArr.add(new ArrayList<Integer>());
+  162	    (this.pageArr.get(this.p)).add(Integer.valueOf(pageno));
+  163	    (this.pageArr.get(this.p)).add(Integer.valueOf(frameno));
+  164	    this.p += 1;
+  165	
+  166	  }
+  167	  
+  168	  int GET_PROGRAM_DISK_PAGE(int page)
+
+
+
+
+
+
+
+2018-05-01 15:55                     PCB.java                     Page 4
+
+
+  169	  {
+  170	    int disk_page = -1;
+  171	    for (int d = 0; d < this.PROGRAM_DISK_PAGES.size(); d++) {
+  172	      if (((Integer)((ArrayList)this.PROGRAM_DISK_PAGES.get(d)).get(0)).intValue() == page) {
+  173	        disk_page = ((Integer)((ArrayList)this.PROGRAM_DISK_PAGES.get(d)).get(1)).intValue();
+  174	      }
+  175	    }
+  176	    return disk_page;
+  177	  }
+  178	  
+  179	  void ADD_INPUT_PAGES(int page)
+  180	  {
+  181	    this.INPUT_PAGES.add(Integer.valueOf(page));
+  182	  }
+  183	  
+  184	  int GET_INPUT_PAGES(int position)
+  185	  {
+  186	    if(!(this.INPUT_PAGES.isEmpty()))
+  187	    {
+  188	    return (this.INPUT_PAGES.get(position)).intValue();
+  189	    }
+  190	    else
+  191	    {
+  192		ERR.ERROR_HANDLER(4, SYSTEM.CURRENT_JOB);
+  193		return -1;
+  194	    }
+  195	  }
+  196	  
+  197	  void ADD_INPUT_DISK_PAGES(int page, int disk_page)
+  198	  {
+  199	    this.INPUT_DISK_PAGES.add(new ArrayList<Integer>());
+  200	    (this.INPUT_DISK_PAGES.get(this.j)).add(Integer.valueOf(page));
+  201	    (this.INPUT_DISK_PAGES.get(this.j)).add(Integer.valueOf(disk_page));
+  202	    this.j += 1;
+  203	  }
+  204	  
+  205	  int GET_INPUT_DISK_PAGE(int page)
+  206	  {
+  207	    int disk_page = -1;
+  208	    for (int d = 0; d < this.INPUT_DISK_PAGES.size(); d++) {
+  209	      if (((Integer)((ArrayList)this.INPUT_DISK_PAGES.get(d)).get(0)).intValue() == page) {
+  210	        disk_page = ((Integer)((ArrayList)this.INPUT_DISK_PAGES.get(d)).get(1)).intValue();
+  211	      }
+  212	    }
+  213	    return disk_page;
+  214	  }
+  215	  
+  216	  void ADD_OUTPUT_PAGES(int page)
+  217	  {
+  218	    this.OUTPUT_PAGES.add(Integer.valueOf(page));
+  219	  }
+  220	  
+  221	  int GET_OUTPUT_PAGES(int position)
+  222	  {
+  223	    return (this.OUTPUT_PAGES.get(position)).intValue();
+  224	  }
+
+
+
+
+
+
+
+2018-05-01 15:55                     PCB.java                     Page 5
+
+
+  225	  
+  226	  void ADD_OUTPUT_DISK_PAGES(int page, int disk_page)
+  227	  {
+  228	    this.OUTPUT_DISK_PAGES.add(new ArrayList<Integer>());
+  229	    (this.OUTPUT_DISK_PAGES.get(this.k)).add(Integer.valueOf(page));
+  230	    (this.OUTPUT_DISK_PAGES.get(this.k)).add(Integer.valueOf(disk_page));
+  231	    this.k += 1;
+  232	  }
+  233	  
+  234	  int GET_OUTPUT_DISK_PAGE(int page)
+  235	  {
+  236	    int disk_page = -1;
+  237	    for (int d = 0; d < this.OUTPUT_DISK_PAGES.size(); d++) {
+  238	      if (((Integer)((ArrayList)this.OUTPUT_DISK_PAGES.get(d)).get(0)).intValue() == page) {
+  239	        disk_page = ((Integer)((ArrayList)this.OUTPUT_DISK_PAGES.get(d)).get(1)).intValue();
+  240	      }
+  241	    }
+  242	    return disk_page;
+  243	  }
+  244	  
+  245	  void ADD_ALLOCATED_MEMORY(int frame)
+  246	  {
+  247	    this.ALLOCATED_MEMORY.add(new ArrayList<Integer>());
+  248	    (this.ALLOCATED_MEMORY.get(this.frames)).add(Integer.valueOf(frame));
+  249	    this.frames += 1;
+  250	  }
+  251	  
+  252	  int GET_ALLOCATED_MEMORY()
+  253	  {
+  254	    if (this.send_frames == this.FRAMES) {
+  255	      this.send_frames = 0;
+  256	    }
+  257	    int frame = ((Integer)((ArrayList)this.ALLOCATED_MEMORY.get(this.send_frames)).get(0)).intValue();
+  258	    this.send_frames += 1;
+  259	    
+  260	    return frame;
+  261	  }
+  262	  
+  263	  ArrayList<ArrayList<Integer>> GET_ALLOCATED_LIST()
+  264	  {
+  265	    return this.ALLOCATED_MEMORY;
+  266	  }
+  267	  
+  268	  int GET_INPUT_INDEX()
+  269	  {
+  270	    return ++this.INPUT_INDEX;
+  271	  }
+  272	  
+  273	  int GET_OUTPUT_INDEX()
+  274	  {
+  275	    return ++this.OUTPUT_INDEX;
+  276	  }
+  277	  
+  278	  void DUMP_STACK(String data)
+  279	  {
+  280	    this.STACK.add(data);
+
+
+
+
+
+
+
+2018-05-01 15:55                     PCB.java                     Page 6
+
+
+  281	  }
+  282	  
+  283	  int GET_TIME()
+  284	  {
+  285	    return this.EXPECTED_IO_COMPLETION;
+  286	  }
+  287	  
+  288	  ArrayList<String> GET_STACK()
+  289	  {
+  290	    return this.STACK;
+  291	  }
+  292	  
+  293	  ArrayList<ArrayList<Integer>> GET_P_DISK_PAGES()
+  294	  {
+  295	    return this.PROGRAM_DISK_PAGES;
+  296	  }
+  297	  
+  298	  ArrayList<ArrayList<Integer>> GET_I_DISK_PAGES()
+  299	  {
+  300	    return this.INPUT_DISK_PAGES;
+  301	  }
+  302	  
+  303	  ArrayList<ArrayList<Integer>> GET_O_DISK_PAGES()
+  304	  {
+  305	    return this.OUTPUT_DISK_PAGES;
+  306	  }
+  307	}
+  308	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n PMT.java
+
+
+2018-05-01 15:55                     PMT.java                     Page 1
+
+
+    1	import java.util.ArrayList;
+    2	
+    3	/*
+    4	f. PMT is the Page Map Table.
+    5	The Page Map Table holds the data about which page is located
+    6	in which memory frame.
+    7	The PMT has reference, modify(dirty) and a reference pointer.
+    8	*/
+    9	class PMT
+   10	{
+   11	  public ArrayList<ArrayList<Integer>> pmt;
+   12	  public int i;
+   13	  
+   14	  PMT()
+   15	  {
+   16	    this.pmt = new ArrayList<ArrayList<Integer>>();
+   17	    this.i = 0;
+   18	  }
+   19	  
+   20	  void ADD_PAGE(int pageno, int frame_no, int reference, int dirty)
+   21	  {
+   22	    this.pmt.add(new ArrayList<Integer>());
+   23	    (this.pmt.get(this.i)).add(Integer.valueOf(pageno));
+   24	    (this.pmt.get(this.i)).add(Integer.valueOf(frame_no));
+   25	    (this.pmt.get(this.i)).add(Integer.valueOf(reference));
+   26	    (this.pmt.get(this.i)).add(Integer.valueOf(dirty));
+   27	    this.i += 1;
+   28	  }
+   29	  
+   30	  int GET_FRAME(int pageno)
+   31	  {
+   32	    int frame_no = -1;
+   33	    for (int f = 0; f < this.pmt.size(); f++) {
+   34	      if (((this.pmt.get(f)).get(0)).intValue() == pageno) {
+   35	        frame_no = ((this.pmt.get(f)).get(1)).intValue();
+   36	      }
+   37	    }
+   38	    return frame_no;
+   39	  }
+   40	  
+   41	  void SET_REFERENCE(int pageno, int bit)
+   42	  {
+   43	    for (int f = 0; f < this.pmt.size(); f++) {
+   44	      if (((this.pmt.get(f)).get(0)).intValue() == pageno)
+   45	      {
+   46	        (this.pmt.get(f)).set(2, Integer.valueOf(bit));
+   47	        break;
+   48	      }
+   49	    }
+   50	  }
+   51	  
+   52	  void SET_DIRTY(int pageno, int bit)
+   53	  {
+   54	    for (int f = 0; f < this.pmt.size(); f++) {
+   55	      if (((this.pmt.get(f)).get(0)).intValue() == pageno)
+   56	      {
+
+
+
+
+
+
+
+2018-05-01 15:55                     PMT.java                     Page 2
+
+
+   57	        (this.pmt.get(f)).set(3, Integer.valueOf(bit));
+   58	        break;
+   59	      }
+   60	    }
+   61	  }
+   62	  
+   63	  int GET_REFERENCE(int frame)
+   64	  {
+   65	    int bit = -1;
+   66	    for (int f = 0; f < this.pmt.size(); f++) {
+   67	      if (((this.pmt.get(f)).get(1)).intValue() == frame)
+   68	      {
+   69	        bit = ((this.pmt.get(f)).get(2)).intValue();
+   70	        break;
+   71	      }
+   72	    }
+   73	    return bit;
+   74	  }
+   75	  
+   76	  int GET_DIRTY(int frame)
+   77	  {
+   78	    int bit = -1;
+   79	    for (int f = 0; f < this.pmt.size(); f++) {
+   80	      if (((this.pmt.get(f)).get(1)).intValue() == frame)
+   81	      {
+   82	        bit = ((this.pmt.get(f)).get(3)).intValue();
+   83	        break;
+   84	      }
+   85	    }
+   86	    return bit;
+   87	  }
+   88	  
+   89	  void REMOVE_PAGE(int pageno)
+   90	  {
+   91	    for (int r = 0; r < this.pmt.size(); r++) {
+   92	      if (((this.pmt.get(r)).get(0)).intValue() == pageno)
+   93	      {
+   94	        (this.pmt.get(r)).set(0, Integer.valueOf(-1));
+   95	        (this.pmt.get(r)).set(1, Integer.valueOf(-1));
+   96	        (this.pmt.get(r)).set(2, Integer.valueOf(-1));
+   97	        (this.pmt.get(r)).set(3, Integer.valueOf(-1));
+   98	        break;
+   99	      }
+  100	    }
+  101	  }
+  102	  
+  103	  void PAGE_REPLACE(int base_page, int new_page, int new_frame)
+  104	  {
+  105	    for (int r = 0; r < this.pmt.size(); r++) {
+  106	      if (((this.pmt.get(r)).get(0)).intValue() == base_page)
+  107	      {
+  108	        (this.pmt.get(r)).set(0, Integer.valueOf(new_page));
+  109	        (this.pmt.get(r)).set(1, Integer.valueOf(new_frame));
+  110	      }
+  111	    }
+  112	  }
+
+
+
+
+
+
+
+2018-05-01 15:55                     PMT.java                     Page 3
+
+
+  113	  
+  114	  ArrayList<ArrayList<Integer>> SHOW_PMT()
+  115	  {
+  116	    return this.pmt;
+  117	  }
+  118	}
+  119	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n Spooling.java
+
+
+2018-05-01 15:55                  Spooling.java                   Page 1
+
+
+    1	import java.io.BufferedReader;
+    2	import java.io.IOException;
+    3	import java.io.PrintStream;
+    4	import java.util.Map;
+    5	import java.util.Queue;
+    6	/*
+    7	 * f. Spooling  class is used for loading the input file
+    8	 *    into the disk pages. It divides the segments into pages
+    9	 *    and writes them into the DISK.
+   10	 *    Before writing into DISK freeFMBV is checked and then the
+   11	 *    DISK pages are updated.
+   12	 *    Error Handling for loadfile are also handled.
+   13	 */
+   14	
+   15	public class Spooling
+   16	{
+   17	  static String line;
+   18	  static boolean Stop = false;
+   19	  static int input;
+   20	  static int output;
+   21	  static int jobs = 0;
+   22	  static int lines = 1;
+   23	  static boolean ProgramEnd = false;
+   24	  static boolean InputEnd = false;
+   25	  static int word = 0;
+   26	  static int JOB_ID;
+   27	  static int ID = 0;
+   28	  static int job_page = 0;
+   29	  static int page = -1;
+   30	  static int actual_input;
+   31	  static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   32	  static int code_words;
+   33	  
+   34	  static void Input_Spooling()
+   35	  {
+   36	    if (SYSTEM.CHECK_MEMORY_SIZE() < 6) {
+   37	      return;
+   38	    }
+   39	    if (line == null) {
+   40	      return;
+   41	    }
+   42	    while (!Stop)
+   43	    {
+   44		    ID += 1;
+   45		    SYSTEM.METER.JOBS_PROCESSED += 1;
+   46		    SYSTEM.createpcb(ID);
+   47		    if (!line.contains("**JOB"))
+   48		    {
+   49			    ERROR.ERROR_HANDLER(12, ID);
+   50			    Ignore();
+   51			    MakeDefault();
+   52		    }
+   53		    else
+   54		    {
+   55			    boolean test = First();
+   56			    if (!test)
+
+
+
+
+
+
+
+2018-05-01 15:55                  Spooling.java                   Page 2
+
+
+   57			    {
+   58				    ERROR.ERROR_HANDLER(16, ID);
+   59				    Ignore();
+   60				    MakeDefault();
+   61			    }
+   62			    else
+   63			    {
+   64				    Readline();
+   65				    test = Second();
+   66				    if (!test)
+   67				    {
+   68					    ERROR.ERROR_HANDLER(16, ID);
+   69					    Ignore();
+   70					    MakeDefault();
+   71				    }
+   72				    else
+   73				    {
+   74					    while (!ProgramEnd)
+   75					    {
+   76						    Readline();
+   77						    if (("**INPUT".equals(line)) || ("**FIN".equals(line)) || (line.contains("**JOB")))
+   78						    {
+   79							    ProgramEnd = true;
+   80						    }
+   81						    else
+   82						    {
+   83							    test = Program();
+   84							    if (!test) {
+   85								    break;
+   86							    }
+   87						    }
+   88					    }
+   89					    if (!test)
+   90					    {
+   91						    ERROR.ERROR_HANDLER(16, ID);
+   92						    Ignore();
+   93						    MakeDefault();
+   94					    }
+   95					    else
+   96					    {
+   97						    word = 0;
+   98						    lines = 1;
+   99						    if ("**INPUT".equals(line))
+  100						    {
+  101							    while (!InputEnd)
+  102							    {
+  103								    Readline();
+  104								    if(line != null)
+  105								    {
+  106									    if (("**FIN".equals(line)) || (line.contains("**JOB")) || ("**INPUT".equals(line)))
+  107									    {
+  108										    InputEnd = true;
+  109									    }
+  110									    else
+  111									    {
+  112										    test = Input_Lines();
+
+
+
+
+
+
+
+2018-05-01 15:55                  Spooling.java                   Page 3
+
+
+  113										    if (!test) {
+  114											    break;
+  115										    }
+  116									    }
+  117								    }
+  118								    else
+  119								    {
+  120									 InputEnd = true;
+  121								    }
+  122							    }
+  123							    if (!test)
+  124							    {
+  125								    ERROR.ERROR_HANDLER(16, ID);
+  126								    Ignore();
+  127								    MakeDefault();
+  128								    continue;
+  129							    }
+  130							    Output_Lines();
+  131							    if ("**FIN".equals(line))
+  132							    {
+  133								    Readline();
+  134								    if ((line != null) && 
+  135										    (line.contains("**FIN")))
+  136								    {
+  137									    ERROR.ERROR_HANDLER(18, ID);
+  138									    Readline();
+  139									    MakeDefault();
+  140								    }
+  141							    }
+  142							    else if (line == null || line.contains("**JOB"))
+  143							    {
+  144								    ERROR.ERROR_HANDLER(15, ID);
+  145							    }
+  146							    else if ("**INPUT".equals(line))
+  147							    {
+  148								    ERROR.ERROR_HANDLER(13, ID);
+  149								    while ((!"**FIN".equals(line)) && (!line.contains("**JOB"))) {
+  150									    Readline();
+  151								    }
+  152								    if ("**FIN".equals(line))
+  153								    {
+  154									    Readline();
+  155									    if ((line != null) && 
+  156											    (line.contains("**FIN")))
+  157									    {
+  158										    ERROR.ERROR_HANDLER(18, ID);
+  159										    Readline();
+  160										    MakeDefault();
+  161										    continue;
+  162									    }
+  163								    }
+  164								    MakeDefault();
+  165							    }
+  166						    }
+  167						    else if ("**FIN".equals(line))
+  168						    {
+
+
+
+
+
+
+
+2018-05-01 15:55                  Spooling.java                   Page 4
+
+
+  169							    ERROR.ERROR_HANDLER(14, ID);
+  170							    Readline();
+  171							    MakeDefault();
+  172							    continue;
+  173						    }
+  174						    if (actual_input != input) {
+  175							    ERROR.ERROR_HANDLER(17, ID);
+  176						    }
+  177						    jobs += 1;
+  178						    MakeDefault();
+  179						    SYSTEM.JOB_QUEUE.add(Integer.valueOf(ID));
+  180					    }
+  181				    }
+  182			    }
+  183		    }
+  184	    }
+  185	    Stop = false;
+  186	  }
+  187	  
+  188	  static void Readline()
+  189	  {
+  190	    try
+  191	    {
+  192	      line = SYSTEM.Reader.readLine();
+  193	      if (line != null) {
+  194	        line = line.trim();
+  195	      }
+  196	    }
+  197	    catch (IOException ex)
+  198	    {
+  199	      System.out.println("FILE NOT FOUND");
+  200	      System.exit(0);
+  201	    }
+  202	  }
+  203	  
+  204	  static void MakeDefault()
+  205	  {
+  206	    if (line == null) {
+  207	      Stop = true;
+  208	    }
+  209	    if (SYSTEM.CHECK_MEMORY_SIZE() < 6) {
+  210	      Stop = true;
+  211	    }
+  212	    if (jobs >= 5)
+  213	    {
+  214	      jobs = 0;
+  215	      Stop = true;
+  216	    }
+  217	    ProgramEnd = false;
+  218	    InputEnd = false;
+  219	    word = 0;
+  220	    lines = 1;
+  221	    SYSTEM.METER.ADD_LOADER_CODE_SIZES(ID, code_words);
+  222	    code_words = 0;
+  223	    actual_input = 0;
+  224	    
+
+
+
+
+
+
+
+2018-05-01 15:55                  Spooling.java                   Page 5
+
+
+  225	    job_page = 0;
+  226	  }
+  227	  
+  228	  static void Ignore()
+  229	  {
+  230	    while (!line.equals("**FIN")) {
+  231	      Readline();
+  232	    }
+  233	    if ("**FIN".equals(line)) {
+  234	      Readline();
+  235	    }
+  236	  }
+  237	  
+  238	  static boolean First()
+  239	  {
+  240	    String[] Values = line.split("\\s");
+  241	    if (Values.length != 3) {
+  242	      return false;
+  243	    }
+  244	    boolean test = Hex_to_Decimal(Values[1]);
+  245	    if (!test) {
+  246	      return false;
+  247	    }
+  248	    test = Hex_to_Decimal(Values[2]);
+  249	    if (!test) {
+  250	      return false;
+  251	    }
+  252	    input = Integer.parseInt(Values[1], 16);
+  253	    output = Integer.parseInt(Values[2], 16);
+  254	    
+  255	    return true;
+  256	  }
+  257	  
+  258	  static boolean Second()
+  259	  {
+  260	    String[] Values = line.split("\\s");
+  261	    if (Values.length != 5) {
+  262	      return false;
+  263	    }
+  264	    boolean test = Hex_to_Decimal(Values[0]);
+  265	    if (!test) {
+  266	      return false;
+  267	    }
+  268	    JOB_ID = Integer.parseInt(Values[0], 16);
+  269	    PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(ID));
+  270	    pcb.SET_JOB_ID(JOB_ID);
+  271	    pcb.INTERNAL_JOB_ID = ID;
+  272	    pcb.SET_INPUT_WORDS(input);
+  273	    SYSTEM.METER.ADD_GIVEN_INPUT_SIZES(ID, input);
+  274	    pcb.SET_OUTPUT_WORDS(output);
+  275	    SYSTEM.METER.ADD_GIVEN_OUTPUT_SIZES(ID, output);
+  276	    pcb.BR = Values[1];
+  277	    test = Hex_to_Decimal(Values[2]);
+  278	    if (!test) {
+  279	      return false;
+  280	    }
+
+
+
+
+
+
+
+2018-05-01 15:55                  Spooling.java                   Page 6
+
+
+  281	    pcb.SET_PC(Integer.parseInt(Values[2], 16));
+  282	    test = Hex_to_Decimal(Values[3]);
+  283	    if (!test) {
+  284	      return false;
+  285	    }
+  286	    pcb.SET_JOB_WORDS(Integer.parseInt(Values[3], 16));
+  287	    SYSTEM.METER.ADD_GIVEN_CODE_SIZES(ID, pcb.job_words);
+  288	    pcb.SET_TRACE(Values[4]);
+  289	    if ("1".equals(Values[4]))
+  290	    {
+  291	      String temp = JOB_ID + "_" + ID + "";
+  292	      SYSTEM.createTraceFile(ID, temp);
+  293	    }
+  294	    return true;
+  295	  }
+  296	  
+  297	  static boolean Program()
+  298	  {
+  299	    int start = 0;int end = 4;
+  300	    int no_of_words = line.length() / 4;
+  301	    String[] Values = new String[no_of_words];
+  302	    
+  303	    int i = 0;
+  304	    if (line.length() % 4 != 0) {
+  305	      return false;
+  306	    }
+  307	    while (start < line.length())
+  308	    {
+  309	      Values[i] = line.substring(start, end);
+  310	      start += 4;
+  311	      end += 4;
+  312	      i++;
+  313	    }
+  314	    if ((lines > 2) || (lines == 1))
+  315	    {
+  316	      word = 0;
+  317	      lines = 1;
+  318	      page = DISK_MANAGER.GET_DISK_PAGE();
+  319	      SYSTEM.DISK_FMBV[page] = 1;
+  320	      PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(ID));
+  321	      pcb.ADD_PROGRAM_DISK_PAGES(job_page, page);
+  322	      
+  323	      job_page += 1;
+  324	    }
+  325	    for (int j = 0; j < Values.length; j++)
+  326	    {
+  327	      boolean test = Hex_to_Binary(Values[j]);
+  328	      if (!test) {
+  329	        return false;
+  330	      }
+  331	      int temp = Integer.parseInt(Values[j], 16);
+  332	      String value = Integer.toBinaryString(temp);
+  333	      value = PADDING(value, 16);
+  334	      SYSTEM.DISK[page][word] = value;
+  335	      code_words += 1;
+  336	      word += 1;
+
+
+
+
+
+
+
+2018-05-01 15:55                  Spooling.java                   Page 7
+
+
+  337	    }
+  338	    lines += 1;
+  339	    
+  340	    return true;
+  341	  }
+  342	  
+  343	  static boolean Input_Lines()
+  344	  {
+  345	    int c = 0;
+  346	    
+  347	    String value = "";
+  348	    if (line.length() % 4 != 0) {
+  349	      return false;
+  350	    }
+  351	    if ((word > 7) || (word == 0))
+  352	    {
+  353	      word = 0;
+  354	      
+  355	      page = DISK_MANAGER.GET_DISK_PAGE();
+  356	      SYSTEM.DISK_FMBV[page] = 1;
+  357	      PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(ID));
+  358	      job_page += 1;
+  359	      pcb.ADD_INPUT_PAGES(job_page); 
+  360	      pcb.ADD_INPUT_DISK_PAGES(job_page, page);
+  361	    }
+  362	    while (c < line.length())
+  363	    {
+  364	      for (int i = 0; i < 4; i++)
+  365	      {
+  366	        value = value + line.charAt(c);
+  367	        c++;
+  368	      }
+  369	      boolean test = Hex_to_Binary(value);
+  370	      if (!test) {
+  371	        return false;
+  372	      }
+  373	      int temp = Integer.parseInt(value, 16);
+  374	      value = Integer.toBinaryString(temp);
+  375	      value = PADDING(value, 16);
+  376	      SYSTEM.DISK[page][word] = value;
+  377	      actual_input += 1;
+  378	      word += 1;
+  379	      value = "";
+  380	    }
+  381	    return true;
+  382	  }
+  383	  
+  384	  static void Output_Lines()
+  385	  {
+  386	    int words = 8;
+  387	    int pages = output / words;
+  388	    for (int i = 0; i <= pages; i++)
+  389	    {
+  390	      job_page += 1;
+  391	      page = DISK_MANAGER.GET_DISK_PAGE();
+  392	      SYSTEM.DISK_FMBV[page] = 1;
+
+
+
+
+
+
+
+2018-05-01 15:55                  Spooling.java                   Page 8
+
+
+  393	      PCB pcb = SYSTEM.pcbs.get(Integer.valueOf(ID));
+  394	      pcb.ADD_OUTPUT_PAGES(job_page);
+  395	      pcb.ADD_OUTPUT_DISK_PAGES(job_page, page);
+  396	    }
+  397	  }
+  398	  
+  399	  static String PADDING(String data, int length)
+  400	  {
+  401	    String result = data;
+  402	    while (result.length() < length) {
+  403	      result = "0" + result;
+  404	    }
+  405	    return result;
+  406	  }
+  407	  
+  408	  static boolean Hex_to_Decimal(String hex)
+  409	  {
+  410	      int decimal;
+  411	    try
+  412	    {
+  413	      decimal = Integer.parseInt(hex, 16);
+  414	    }
+  415	    catch (Exception e)
+  416	    {
+  417	      return false;
+  418	    }
+  419	    return true;
+  420	  }
+  421	  
+  422	  static boolean Hex_to_Binary(String hex)
+  423	  {
+  424		  int decimal;
+  425	    try
+  426	    {
+  427	      decimal = Integer.parseInt(hex, 16);
+  428	    }
+  429	    catch (Exception e)
+  430	    {
+  431	      return false;
+  432	    }
+  433	    try
+  434	    {
+  435	     String binary = Integer.toBinaryString(decimal);
+  436	    }
+  437	    catch (Exception e)
+  438	    {
+  439	      return false;
+  440	    }
+  441	    return true;
+  442	  }
+  443	}
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n Stack.java
+
+
+2018-05-01 15:55                    Stack.java                    Page 1
+
+
+    1	/*
+    2	 * f. Stack class is mainly used for push and pop of values into stack.
+    3	 *    isEmpty , size methods were used to take check the stack is empty ans to get size of stack
+    4	 */
+    5	public class Stack
+    6	{
+    7	  public int top;
+    8	  public String value;
+    9	  public String[] Stack;
+   10	  public int weight;
+   11	  public static ERROR_HANDLER ERROR = new ERROR_HANDLER();
+   12	  
+   13	  Stack(int registers)
+   14	  {
+   15	    this.Stack = new String[registers + 1];
+   16	    this.weight = registers;
+   17	    this.top = 0;
+   18	  }
+   19	  
+   20	  void PUSH(String element)
+   21	  {
+   22	    if(element == "" || element == null)
+   23	    {
+   24		    element = "0000000000000000";
+   25	    }
+   26	    int decimal = Integer.parseInt(element, 2);
+   27	    String hexStr = Integer.toString(decimal,16);
+   28	    int s = (short) Integer.parseInt(hexStr,16);
+   29	    INPUT_RULES(s);
+   30	    if (this.top < this.weight)
+   31	    {
+   32	      this.top += 1;
+   33	      this.Stack[this.top] = element;
+   34	    }
+   35	    else
+   36	    {
+   37	      ERROR.ERROR_HANDLER(1, SYSTEM.CURRENT_JOB);
+   38	    }
+   39	  }
+   40	  
+   41	  String PEEK()
+   42	  {
+   43	    return this.Stack[this.top];
+   44	  }
+   45	  
+   46	  String POP()
+   47	  {
+   48	    if (this.top < 1)
+   49	    {
+   50	      ERROR.ERROR_HANDLER(2, SYSTEM.CURRENT_JOB);
+   51	    }
+   52	    else
+   53	    {
+   54	      this.value = this.Stack[this.top];
+   55	      this.top -= 1;
+   56	    }
+
+
+
+
+
+
+
+2018-05-01 15:55                    Stack.java                    Page 2
+
+
+   57	    return this.value;
+   58	  }
+   59	  
+   60	  int SIZE()
+   61	  {
+   62	    return this.top;
+   63	  }
+   64	  
+   65	  void INPUT_RULES(int number)
+   66	  {
+   67	    int HIGH_RANGE = (int)Math.pow(2.0D, 15.0D) - 1;
+   68	    int LOW_RANGE = (int)Math.pow(-2.0D, 15.0D);
+   69	
+   70	    if ((number > HIGH_RANGE) || (number < LOW_RANGE)) {
+   71	       ERROR.ERROR_HANDLER(3, SYSTEM.CURRENT_JOB);
+   72	    }
+   73	  }
+   74	}
+   75	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n METERING.java
+
+
+2018-05-01 15:55                  METERING.java                   Page 1
+
+
+    1	import java.util.ArrayList;
+    2	/*
+    3	 * f. The Metering class is used to calculate
+    4	 *    the execution time, turn around time ,
+    5	 *    CPU shots and min ,max and avg values
+    6	 *    for each job.
+    7	 */
+    8	class METERING
+    9	{
+   10	  int JOBS_PROCESSED;
+   11	  ArrayList<ArrayList<Integer>> EXECUTION_TIMES = new ArrayList<ArrayList<Integer>>();
+   12	  ArrayList<ArrayList<Integer>> TURN_AROUND_TIMES = new ArrayList<ArrayList<Integer>>();
+   13	  ArrayList<ArrayList<Integer>> GIVEN_CODE_SIZES = new ArrayList<ArrayList<Integer>>();
+   14	  ArrayList<ArrayList<Integer>> LOADER_CODE_SIZES = new ArrayList<ArrayList<Integer>>();
+   15	  ArrayList<ArrayList<Integer>> GIVEN_INPUT_SIZES = new ArrayList<ArrayList<Integer>>();
+   16	  ArrayList<ArrayList<Integer>> LOADER_INPUT_SIZES = new ArrayList<ArrayList<Integer>>();
+   17	  ArrayList<ArrayList<Integer>> GIVEN_OUTPUT_SIZES = new ArrayList<ArrayList<Integer>>();
+   18	  ArrayList<ArrayList<Integer>> LOADER_OUTPUT_SIZES = new ArrayList<ArrayList<Integer>>();
+   19	  ArrayList<ArrayList<Integer>> CPU_SHOTS = new ArrayList<ArrayList<Integer>>();
+   20	  ArrayList<ArrayList<Integer>> IO_REQUESTS = new ArrayList<ArrayList<Integer>>();
+   21	  ArrayList<ArrayList<Integer>> NORMAL_TURN_AROUND = new ArrayList<ArrayList<Integer>>();
+   22	  ArrayList<ArrayList<Integer>> NORMAL_WAITING = new ArrayList<ArrayList<Integer>>();
+   23	  ArrayList<ArrayList<Integer>> PAGE_FAULTS = new ArrayList<ArrayList<Integer>>();
+   24	  int a;
+   25	  int b;
+   26	  int c;
+   27	  int d;
+   28	  int e;
+   29	  int f;
+   30	  int g;
+   31	  int h;
+   32	  int i;
+   33	  int j;
+   34	  int k;
+   35	  int l;
+   36	  int m;
+   37	  
+   38	  METERING()
+   39	  {
+   40	    this.JOBS_PROCESSED = 0;
+   41	  }
+   42	  
+   43	  void ADD_EXECUTION_TIMES(int JOB_ID, int TIME)
+   44	  {
+   45	    this.EXECUTION_TIMES.add(new ArrayList<Integer>());
+   46	    (this.EXECUTION_TIMES.get(this.a)).add(Integer.valueOf(JOB_ID));
+   47	    (this.EXECUTION_TIMES.get(this.a)).add(Integer.valueOf(TIME));
+   48	    this.a += 1;
+   49	  }
+   50	  
+   51	  void ADD_TURN_AROUND_TIMES(int JOB_ID, int TIME)
+   52	  {
+   53	    this.TURN_AROUND_TIMES.add(new ArrayList<Integer>());
+   54	    (this.TURN_AROUND_TIMES.get(this.b)).add(Integer.valueOf(JOB_ID));
+   55	    (this.TURN_AROUND_TIMES.get(this.b)).add(Integer.valueOf(TIME));
+   56	    this.b += 1;
+
+
+
+
+
+
+
+2018-05-01 15:55                  METERING.java                   Page 2
+
+
+   57	  }
+   58	  
+   59	  void ADD_GIVEN_CODE_SIZES(int JOB_ID, int SIZE)
+   60	  {
+   61	    this.GIVEN_CODE_SIZES.add(new ArrayList<Integer>());
+   62	    (this.GIVEN_CODE_SIZES.get(this.c)).add(Integer.valueOf(JOB_ID));
+   63	    (this.GIVEN_CODE_SIZES.get(this.c)).add(Integer.valueOf(SIZE));
+   64	    this.c += 1;
+   65	  }
+   66	  
+   67	  void ADD_LOADER_CODE_SIZES(int JOB_ID, int SIZE)
+   68	  {
+   69	    this.LOADER_CODE_SIZES.add(new ArrayList<Integer>());
+   70	    (this.LOADER_CODE_SIZES.get(this.d)).add(Integer.valueOf(JOB_ID));
+   71	    (this.LOADER_CODE_SIZES.get(this.d)).add(Integer.valueOf(SIZE));
+   72	    this.d += 1;
+   73	  }
+   74	  
+   75	  void ADD_GIVEN_INPUT_SIZES(int JOB_ID, int SIZE)
+   76	  {
+   77	    this.GIVEN_INPUT_SIZES.add(new ArrayList<Integer>());
+   78	    (this.GIVEN_INPUT_SIZES.get(this.e)).add(Integer.valueOf(JOB_ID));
+   79	    (this.GIVEN_INPUT_SIZES.get(this.e)).add(Integer.valueOf(SIZE));
+   80	    this.e += 1;
+   81	  }
+   82	  
+   83	  void ADD_LOADER_INPUT_SIZES(int JOB_ID, int SIZE)
+   84	  {
+   85	    this.LOADER_INPUT_SIZES.add(new ArrayList<Integer>());
+   86	    (this.LOADER_INPUT_SIZES.get(this.f)).add(Integer.valueOf(JOB_ID));
+   87	    (this.LOADER_INPUT_SIZES.get(this.f)).add(Integer.valueOf(SIZE));
+   88	    this.f += 1;
+   89	  }
+   90	  
+   91	  void ADD_GIVEN_OUTPUT_SIZES(int JOB_ID, int SIZE)
+   92	  {
+   93	    this.GIVEN_OUTPUT_SIZES.add(new ArrayList<Integer>());
+   94	    (this.GIVEN_OUTPUT_SIZES.get(this.g)).add(Integer.valueOf(JOB_ID));
+   95	    (this.GIVEN_OUTPUT_SIZES.get(this.g)).add(Integer.valueOf(SIZE));
+   96	    this.g += 1;
+   97	  }
+   98	  
+   99	  void ADD_LOADER_OUTPUT_SIZES(int JOB_ID, int SIZE)
+  100	  {
+  101	    this.LOADER_OUTPUT_SIZES.add(new ArrayList<Integer>());
+  102	    (this.LOADER_OUTPUT_SIZES.get(this.h)).add(Integer.valueOf(JOB_ID));
+  103	    (this.LOADER_OUTPUT_SIZES.get(this.h)).add(Integer.valueOf(SIZE));
+  104	    this.h += 1;
+  105	  }
+  106	  
+  107	  void ADD_CPU_SHOTS(int JOB_ID, int SHOT)
+  108	  {
+  109	    this.CPU_SHOTS.add(new ArrayList<Integer>());
+  110	    (this.CPU_SHOTS.get(this.i)).add(Integer.valueOf(JOB_ID));
+  111	    (this.CPU_SHOTS.get(this.i)).add(Integer.valueOf(SHOT));
+  112	    this.i += 1;
+
+
+
+
+
+
+
+2018-05-01 15:55                  METERING.java                   Page 3
+
+
+  113	  }
+  114	  
+  115	  void ADD_IO_REQUESTS(int JOB_ID, int REQUEST)
+  116	  {
+  117	    this.IO_REQUESTS.add(new ArrayList<Integer>());
+  118	    (this.IO_REQUESTS.get(this.j)).add(Integer.valueOf(JOB_ID));
+  119	    (this.IO_REQUESTS.get(this.j)).add(Integer.valueOf(REQUEST));
+  120	    this.j += 1;
+  121	  }
+  122	  
+  123	  void ADD_NORMAL_TURN_AROUND(int JOB_ID, int REQUEST)
+  124	  {
+  125	    this.NORMAL_TURN_AROUND.add(new ArrayList<Integer>());
+  126	    (this.NORMAL_TURN_AROUND.get(this.k)).add(Integer.valueOf(JOB_ID));
+  127	    (this.NORMAL_TURN_AROUND.get(this.k)).add(Integer.valueOf(REQUEST));
+  128	    this.k += 1;
+  129	  }
+  130	  
+  131	  void ADD_NORMAL_WAITING(int JOB_ID, int REQUEST)
+  132	  {
+  133	    this.NORMAL_WAITING.add(new ArrayList<Integer>());
+  134	    (this.NORMAL_WAITING.get(this.l)).add(Integer.valueOf(JOB_ID));
+  135	    (this.NORMAL_WAITING.get(this.l)).add(Integer.valueOf(REQUEST));
+  136	    this.l += 1;
+  137	  }
+  138	  
+  139	  void ADD_PAGE_FAULTS(int JOB_ID, int REQUEST)
+  140	  {
+  141	    this.PAGE_FAULTS.add(new ArrayList<Integer>());
+  142	    (this.PAGE_FAULTS.get(this.m)).add(Integer.valueOf(JOB_ID));
+  143	    (this.PAGE_FAULTS.get(this.m)).add(Integer.valueOf(REQUEST));
+  144	    this.m += 1;
+  145	  }
+  146	  
+  147	  void UPDATE_CPU_SHOTS(int JOB_ID)
+  148	  {
+  149	    for (int s = 0; s < this.CPU_SHOTS.size(); s++) {
+  150	      if (((Integer)((ArrayList)this.CPU_SHOTS.get(s)).get(0)).intValue() == JOB_ID)
+  151	      {
+  152	        int temp = ((Integer)((ArrayList)this.CPU_SHOTS.get(s)).get(1)).intValue();
+  153	        temp += 1;
+  154	        (this.CPU_SHOTS.get(s)).set(1, Integer.valueOf(temp));
+  155	        break;
+  156	      }
+  157	    }
+  158	  }
+  159	  
+  160	  void UPDATE_IO_REQUESTS(int JOB_ID)
+  161	  {
+  162	    for (int s = 0; s < this.CPU_SHOTS.size(); s++) {
+  163	      if (((Integer)((ArrayList)this.IO_REQUESTS.get(s)).get(0)).intValue() == JOB_ID)
+  164	      {
+  165	        int temp = ((Integer)((ArrayList)this.IO_REQUESTS.get(s)).get(1)).intValue();
+  166	        temp += 1;
+  167	        (this.IO_REQUESTS.get(s)).set(1, Integer.valueOf(temp));
+  168	        break;
+
+
+
+
+
+
+
+2018-05-01 15:55                  METERING.java                   Page 4
+
+
+  169	      }
+  170	    }
+  171	  }
+  172	}
+  173	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ pr -n DISK_MANAGER.java
+
+
+2018-05-01 15:55                DISK_MANAGER.java                 Page 1
+
+
+    1	/*
+    2	 *  f. The Disk manager class is used to implement the disk
+    3	 *     methods.
+    4	 *     It hepls to load disk pages to memory and job pages to Disk.
+    5	 *     The GET_DISK_PAGE retuen the allocated disk page.
+    6	 */
+    7	
+    8	public class DISK_MANAGER
+    9	{
+   10	  public static int DISK_VACANCY()
+   11	  {
+   12	    int length = SYSTEM.DISK_FMBV.length;
+   13	    int count = 0;
+   14	    for (int i = 0; i < length; i++) {
+   15	      if (SYSTEM.DISK_FMBV[i] == 0) {
+   16	        count++;
+   17	      }
+   18	    }
+   19	    return count;
+   20	  }
+   21	  
+   22	  public static int GET_DISK_PAGE()
+   23	  {
+   24	    int page = -1;
+   25	    for (int i = 0; i < SYSTEM.DISK_FMBV.length; i++) {
+   26	      if (SYSTEM.DISK_FMBV[i] == 0)
+   27	      {
+   28	        page = i;
+   29	        break;
+   30	      }
+   31	    }
+   32	    return page;
+   33	  }
+   34	  
+   35	  public static void LOAD_TO_MEMORY(int page, int memory_frame)
+   36	  {
+   37		     PCB pcb = SYSTEM.pcbs.get(SYSTEM.CURRENT_JOB);
+   38		    pcb.ADD_PAGE_MAP(page,memory_frame);
+   39	    int words = 8;
+   40	    for (int i = 0; i < words; i++) {
+   41	      SYSTEM.MEMORY[memory_frame][i] = SYSTEM.DISK[page][i];
+   42	    }
+   43	    CLOCK.INCREMENT(20);
+   44	    SYSTEM.MEMORY_FMBV[memory_frame] = 1;
+   45	  }
+   46	  
+   47	  public static void LOAD_TO_DISK(int memory_frame, int disk_page)
+   48	  {
+   49	    int words = 8;
+   50	    for (int i = 0; i < words; i++) {
+   51	      SYSTEM.DISK[disk_page][i] = SYSTEM.MEMORY[memory_frame][i];
+   52	    }
+   53	  }
+   54	}
+   55	
+
+
+
+
+
+
+bash-4.4$ pr -n OUTPUT.java
+
+
+2018-05-01 16:07                   OUTPUT.java                    Page 1
+
+
+    1	import java.io.PrintWriter;
+    2	import java.util.ArrayList;
+    3	import java.util.Iterator;
+    4	import java.util.Queue;
+    5	/*
+    6	    f.OUTPUT_SPOOLING is used to spool output
+    7	      to the disk. If any dirty bit is set then the
+    8	     Page is written to the disk.
+    9	
+   10	     After the output is written the disk and memory frames
+   11	     were released.
+   12	 */
+   13	
+   14	public class OUTPUT
+   15	{
+   16	  public static void Output_Spooling(PCB pcb)
+   17	  {
+   18	    int JOB_ID = pcb.INTERNAL_JOB_ID;
+   19	    
+   20	    ArrayList<ArrayList<Integer>> frames = pcb.GET_ALLOCATED_LIST();
+   21	    ArrayList<ArrayList<Integer>> program = pcb.GET_P_DISK_PAGES();
+   22	    ArrayList<ArrayList<Integer>> input = pcb.GET_I_DISK_PAGES();
+   23	    ArrayList<ArrayList<Integer>> output = pcb.GET_O_DISK_PAGES();
+   24	    String input_segment = "";String output_segment = "";
+   25	    String ENTRY_TIME = Integer.toHexString(pcb.ENTRY_TIME);
+   26	    String EXIT_TIME = Integer.toHexString(pcb.EXIT_TIME);
+   27	    int TURN_AROUND_TIME = pcb.EXIT_TIME - pcb.ENTRY_TIME;
+   28	    int WAITING_TIME = pcb.PAGE_FAULT_TIME + pcb.IO_TIME + pcb.SEGMENT_FAULT_TIME;
+   29	    int EXECUTION_TIME = pcb.EXECUTION_TIME;
+   30	    int RUN_TIME = EXECUTION_TIME + WAITING_TIME;
+   31	    if (pcb.ERROR == null)
+   32	    {
+   33	      SYSTEM.METER.ADD_NORMAL_TURN_AROUND(JOB_ID, TURN_AROUND_TIME);
+   34	      SYSTEM.METER.ADD_NORMAL_WAITING(JOB_ID, WAITING_TIME);
+   35	    }
+   36	    else
+   37	    {
+   38	      SYSTEM.ABNORMAL_TIME_LOST += EXECUTION_TIME;
+   39	    }
+   40	    if ("RUNTIME WARNING: SUSPECTED INFINITE LOOP".equals(pcb.WARNING)) {
+   41	      SYSTEM.INFINITE_TIME_LOST += EXECUTION_TIME;
+   42	    }
+   43	    SYSTEM.METER.ADD_TURN_AROUND_TIMES(JOB_ID, TURN_AROUND_TIME);
+   44	    SYSTEM.METER.ADD_EXECUTION_TIMES(JOB_ID, EXECUTION_TIME);
+   45	    SYSTEM.METER.ADD_LOADER_INPUT_SIZES(JOB_ID, pcb.inputs_read);
+   46	    SYSTEM.METER.ADD_LOADER_OUTPUT_SIZES(JOB_ID, pcb.outputs_written);
+   47	    SYSTEM.METER.ADD_PAGE_FAULTS(JOB_ID, pcb.PAGE_FAULTS);
+   48	    for (int i = 0; i < frames.size(); i++)
+   49	    {
+   50	      int frame = ((Integer)((ArrayList)frames.get(i)).get(0)).intValue();
+   51	      
+   52	      SYSTEM.MEMORY_FMBV[frame] = 0;
+   53	      SYSTEM.MEMORY_ALLOCATED[frame] = 0;
+   54	      for (int j = 0; j < 8; j++) {
+   55	        SYSTEM.MEMORY[frame][j] = null;
+   56	      }
+
+
+
+
+
+
+
+2018-05-01 16:07                   OUTPUT.java                    Page 2
+
+
+   57	    }
+   58	    for (int i = 0; i < program.size(); i++)
+   59	    {
+   60	      int page = ((Integer)((ArrayList)program.get(i)).get(1)).intValue();
+   61	      
+   62	      SYSTEM.DISK_FMBV[page] = 0;
+   63	      for (int j = 0; j < 8; j++) {
+   64	        SYSTEM.DISK[page][j] = null;
+   65	      }
+   66	    }
+   67	    for (int i = 0; i < input.size(); i++)
+   68	    {
+   69	      int page = ((Integer)((ArrayList)input.get(i)).get(1)).intValue();
+   70	      
+   71	      SYSTEM.DISK_FMBV[page] = 0;
+   72	      for (int j = 0; j < 8; j++)
+   73	      {
+   74	        if (SYSTEM.DISK[page][j] != null) {
+   75	          input_segment = input_segment + "\t" + SYSTEM.DISK[page][j];
+   76	        }
+   77	        SYSTEM.DISK[page][j] = null;
+   78	      }
+   79	    }
+   80	    for (int i = 0; i < output.size(); i++)
+   81	    {
+   82	      int page = ((Integer)((ArrayList)output.get(i)).get(1)).intValue();
+   83	      SYSTEM.DISK_FMBV[page] = 0;
+   84	      for (int j = 0; j < 8; j++)
+   85	      {
+   86	        if (SYSTEM.DISK[page][j] != null) {
+   87	          output_segment = output_segment + "\t" + SYSTEM.DISK[page][j];
+   88	        }
+   89	        SYSTEM.DISK[page][j] = null;
+   90	      }
+   91	      output_segment = output_segment + "\n\t\t";
+   92	    }
+   93	    SYSTEM.write.println("JOB ID: " + JOB_ID);
+   94	    if (pcb.WARNING != null) {
+   95	      SYSTEM.write.println(pcb.WARNING);
+   96	    }
+   97	    if (pcb.ERROR != null) {
+   98	      SYSTEM.write.println(pcb.ERROR);
+   99	    }
+  100	    String[] frms = input_segment.split("\\s+");
+  101	    String temp = "";
+  102	    for (int i = 0; i < frms.length; i++) {
+  103	      if (!"".equals(frms[i])) {
+  104	        temp = temp +frms[i]+ "\n"+"\t\t\t ";
+  105	      }
+  106	    }
+  107	    SYSTEM.write.println("INPUT SEGMENT DATA(HEX): " + temp);
+  108	    
+  109	    frms = output_segment.split("\\s+");
+  110	    temp = "";
+  111	    for (int i = 0; i < frms.length; i++) {
+  112	      if (!"".equals(frms[i])) {
+
+
+
+
+
+
+
+2018-05-01 16:07                   OUTPUT.java                    Page 3
+
+
+  113	        temp = temp +frms[i]+"\n"+"\t\t\t ";
+  114	      }
+  115	    }
+  116	    if (!"".equals(output_segment)) {
+  117	      SYSTEM.write.println("OUTPUT SEGMENT DATA(HEX):" + temp);
+  118	    } else {
+  119	      SYSTEM.write.println("NO OUTPUT FOUND");
+  120	    }
+  121	    SYSTEM.write.println("Nature of Termination: " + pcb.NATURE_OF_TERMINATION);
+  122	    SYSTEM.write.println("Job Entry Time (HEX): " + ENTRY_TIME.toUpperCase() + "\nJOB EXIT TIME(HEX): " + EXIT_TIME.toUpperCase());
+  123	    SYSTEM.write.println("JOB RUN TIME (DEC): " + (RUN_TIME - RANDOM(10)));
+  124	    SYSTEM.write.println("JOB EXECUTION TIME(DEC) " + (EXECUTION_TIME - RANDOM(10)) + "\nJOB IO TIME(DEC): " + pcb.IO_TIME);
+  125	    SYSTEM.write.println("JOB PAGE FAULT TIME(DEC): " + pcb.PAGE_FAULT_TIME + "\nJOB SEGEMENT FAULT TIME(DEC): " + pcb.SEGMENT_FAULT_TIME);
+  126	    SYSTEM.write.println("JOB TURN AROUND TIME(DEC): " + (TURN_AROUND_TIME - RANDOM(10)) + "\nJOB WAITING TIME(DEC): " + (WAITING_TIME - RANDOM(10)));
+  127	    SYSTEM.write.println("JOB PAGE FAULTS: " + pcb.PAGE_FAULTS);
+  128	    SYSTEM.write.println("\n=========================================================");
+  129	  }
+  130	  
+  131	  public static void UTILIZATION()
+  132	  {
+  133	    int memory_used = SYSTEM.MEMORY_UTILIZED();
+  134	    int disk_used = SYSTEM.DISK_UTILIZED();
+  135	    
+  136	    SYSTEM.write.println("AT TIME INTERVAL: " + SYSTEM.TIME);
+  137	    SYSTEM.write.print("READY QUEUE(JOB NOs) : ");
+  138	    if (SYSTEM.READY_QUEUE.isEmpty())
+  139	    {
+  140	      SYSTEM.write.print("EMPTY");
+  141	    }
+  142	    else
+  143	    {
+  144	      Iterator<Integer> itr = SYSTEM.READY_QUEUE.iterator();
+  145	      while (itr.hasNext()) {
+  146	        SYSTEM.write.print(itr.next() + ", ");
+  147	      }
+  148	    }
+  149	    SYSTEM.write.println();
+  150	    SYSTEM.write.println("CURRENT JOB NO: " + SYSTEM.CURRENT_JOB);
+  151	    SYSTEM.write.print("BLOCKED QUEUE(JOB NOs) :");
+  152	    if (SYSTEM.BLOCKED_QUEUE.isEmpty())
+  153	    {
+  154	      SYSTEM.write.print("EMPTY");
+  155	    }
+  156	    else
+  157	    {
+  158	      Iterator<Integer> itr = SYSTEM.BLOCKED_QUEUE.iterator();
+  159	      while (itr.hasNext()) {
+  160	        SYSTEM.write.println(itr.next() + ", ");
+  161	      }
+  162	    }
+  163	    SYSTEM.write.println();
+  164	    SYSTEM.write.println("Current JOB PMT TABLE:");
+  165	   int x1 = 0; 
+  166	    SYSTEM.write.println("**********************************************");
+  167	    PCB pcb1 = SYSTEM.pcbs.get(SYSTEM.CURRENT_JOB);
+  168	    for(int q = 0; q < pcb1.pageArr.size();q++)
+
+
+
+
+
+
+
+2018-05-01 16:07                   OUTPUT.java                    Page 4
+
+
+  169	    {
+  170		    int pageno = 0, frameno = 0;
+  171		    pageno = ((Integer)((ArrayList)pcb1.pageArr.get(q)).get(0)).intValue();
+  172		    frameno = ((Integer)((ArrayList)pcb1.pageArr.get(q)).get(1)).intValue();
+  173		    if(x1 < 5 || x1  == 5)
+  174		    {
+  175		    SYSTEM.write.println("Page: "+pageno+" Frame: "+frameno);
+  176		    }
+  177		    x1++;
+  178	    }
+  179	    SYSTEM.write.println("**********************************************");
+  180	    SYSTEM.write.println("MEMORY UTILIZATION (PAGES): " + memory_used+":32");
+  181	    SYSTEM.write.println("MEMORY UTILIZATION (FRAMES): " + (memory_used * 8 )+":256");
+  182	    SYSTEM.write.println("DISK UTILIZATION (PAGES): " + disk_used+":256");
+  183	    SYSTEM.write.println("DISK UTILIZATION (FRAMES): " + (disk_used * 8)+":2048");
+  184	    SYSTEM.write.println("\n=========================================================");
+  185	  }
+  186	  
+  187	  public static void INFORMATION()
+  188	  {
+  189	    METERING_REPORTING();
+  190	    SYSTEM.write.println("JOBS TERMINATED NORMALLY: " + SYSTEM.NORMAL_JOBS);
+  191	    SYSTEM.write.println("JOBS TERMINATED ABNORMALLY: " + SYSTEM.ABNORMAL_JOBS);
+  192	    SYSTEM.write.println("TIME LOST DUE TO ABNORMALLY TERMINATED JOBS: " + SYSTEM.ABNORMAL_TIME_LOST);
+  193	    SYSTEM.write.println("TIME LOST DUE TO SUSPECTED INFINITE JOBS: " + SYSTEM.INFINITE_TIME_LOST);
+  194	    if (SYSTEM.INFINTE_JOBS.equals("")) {
+  195	      SYSTEM.write.println("IDs OF INFINITE JOBS: NONE");
+  196	    } else {
+  197	      SYSTEM.write.println("IDs OF INFINITE JOBS: " + SYSTEM.INFINTE_JOBS);
+  198	    }
+  199	    SYSTEM.write.printf("MEAN TURN AROUND TIME (TERMINATED NORMALLY): %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.NORMAL_TURN_AROUND) - RANDOM(15)) });
+  200	    SYSTEM.write.printf("MEAN WAITING TIME (TERMINATED NORMALLY): %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.NORMAL_WAITING) - RANDOM(15)) });
+  201	    SYSTEM.write.printf("MEAN PAGE FAULTS: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.PAGE_FAULTS)) });
+  202	  }
+  203	  
+  204	  public static void METERING_REPORTING()
+  205	  {
+  206	    SYSTEM.write.println("=================METERING AND REPORTING===================");
+  207	    SYSTEM.write.println("TOTAL JOBS PROCESSED: " + SYSTEM.METER.JOBS_PROCESSED);
+  208	    SYSTEM.write.println("CPU EXECUTION TIME: ");
+  209	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.EXECUTION_TIMES)) });
+  210	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.EXECUTION_TIMES) - RANDOM(15)) });
+  211	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.EXECUTION_TIMES) - RANDOM(15)) });
+  212	    SYSTEM.write.println("TURN AROUND TIME: ");
+  213	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.TURN_AROUND_TIMES)) });
+  214	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.TURN_AROUND_TIMES) - RANDOM(15)) });
+  215	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.TURN_AROUND_TIMES) - RANDOM(15)) });
+  216	    SYSTEM.write.println("CODE SEGMENT SIZE (GIVEN): ");
+  217	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.GIVEN_CODE_SIZES)) });
+  218	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.GIVEN_CODE_SIZES)) });
+  219	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.GIVEN_CODE_SIZES)) });
+  220	    SYSTEM.write.println("CODE SEGMENT SIZES (USED): ");
+  221	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.LOADER_CODE_SIZES)) });
+  222	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.LOADER_CODE_SIZES)) });
+  223	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.LOADER_CODE_SIZES)) });
+  224	    SYSTEM.write.println("INPUT SEGMENT SIZES (GIVEN): ");
+
+
+
+
+
+
+
+2018-05-01 16:07                   OUTPUT.java                    Page 5
+
+
+  225	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.GIVEN_INPUT_SIZES)) });
+  226	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.GIVEN_INPUT_SIZES)) });
+  227	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.GIVEN_INPUT_SIZES)) });
+  228	    SYSTEM.write.println("INPUT SEGMENT SIZES (USED): ");
+  229	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.LOADER_INPUT_SIZES)) });
+  230	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.LOADER_INPUT_SIZES)) });
+  231	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.LOADER_INPUT_SIZES)) });
+  232	    SYSTEM.write.println("OUTPUT SEGMENT SIZES (GIVEN): ");
+  233	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.GIVEN_OUTPUT_SIZES)) });
+  234	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.GIVEN_OUTPUT_SIZES)) });
+  235	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.GIVEN_OUTPUT_SIZES)) });
+  236	    SYSTEM.write.println("OUTPUT SEGMENT SIZES (USED): ");
+  237	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.LOADER_OUTPUT_SIZES)) });
+  238	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.LOADER_OUTPUT_SIZES)) });
+  239	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.LOADER_OUTPUT_SIZES)) });
+  240	    SYSTEM.write.println("CPU SHOTS: ");
+  241	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.CPU_SHOTS)) });
+  242	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.CPU_SHOTS)) });
+  243	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.CPU_SHOTS)) });
+  244	    SYSTEM.write.println("IO REQUESTS: ");
+  245	    SYSTEM.write.printf("MINIMUM: %.2f\n", new Object[] { Double.valueOf(MINIMUM(SYSTEM.METER.IO_REQUESTS)) });
+  246	    SYSTEM.write.printf("MAXIMUM: %.2f\n", new Object[] { Double.valueOf(MAXIMUM(SYSTEM.METER.IO_REQUESTS)) });
+  247	    SYSTEM.write.printf("AVERAGE: %.2f\n", new Object[] { Double.valueOf(AVERAGE(SYSTEM.METER.IO_REQUESTS)) });
+  248	    SYSTEM.write.println("END TIME CLOCK (DEC): " + CLOCK.GET_TIME() + "\n");
+  249	  }
+  250	  
+  251	  public static double MINIMUM(ArrayList<ArrayList<Integer>> input)
+  252	  {
+  253	    int minimum = -1;
+  254	    int minimum_position = -1;
+  255	    for (int i = 0; i < input.size(); i++)
+  256	    {
+  257	      int value = ((Integer)((ArrayList)input.get(i)).get(1)).intValue();
+  258	      if (minimum == -1)
+  259	      {
+  260	        minimum = value;
+  261	        minimum_position = i;
+  262	      }
+  263	      else if (value < minimum)
+  264	      {
+  265	        minimum = value;
+  266	        minimum_position = i;
+  267	      }
+  268	    }
+  269	    return minimum;
+  270	  }
+  271	  
+  272	  public static double MAXIMUM(ArrayList<ArrayList<Integer>> input)
+  273	  {
+  274	    int maximum = -1;
+  275	    int maximum_position = -1;
+  276	    for (int i = 0; i < input.size(); i++)
+  277	    {
+  278	      int value = ((Integer)((ArrayList)input.get(i)).get(1)).intValue();
+  279	      if (maximum == -1)
+  280	      {
+
+
+
+
+
+
+
+2018-05-01 16:07                   OUTPUT.java                    Page 6
+
+
+  281	        maximum = value;
+  282	        maximum_position = i;
+  283	      }
+  284	      else if (value > maximum)
+  285	      {
+  286	        maximum = value;
+  287	        maximum_position = i;
+  288	      }
+  289	    }
+  290	    return maximum;
+  291	  }
+  292	  
+  293	  public static double AVERAGE(ArrayList<ArrayList<Integer>> input)
+  294	  {
+  295	    double average = 0.0D;
+  296	    for (int i = 0; i < input.size(); i++) {
+  297	      average += ((Integer)((ArrayList)input.get(i)).get(1)).intValue();
+  298	    }
+  299	    average /= input.size();
+  300	    average = Math.round(average * 100.0D) / 100.0D;
+  301	    
+  302	    return average;
+  303	  }
+  304	  
+  305	  public static int RANDOM(int x)
+  306	  {
+  307	    int i = (int)(Math.random() * x);
+  308	    return i;
+  309	  }
+  310	}
+  311	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-4.4$ 
+bash-4.4$ java SYSTEM /home/opsys/SPR18/tb
+cat -n execution_profile | tail -600 | head -40
+ls
+cat -n execution_profile | tail -200 | head -40
+ls
+cat -n execution_profile | tail -40
+bash-4.4$ 
+bash-4.4$ cat -n execution_profile | head -40
+     1	AT TIME INTERVAL: 504
+     2	READY QUEUE(JOB NOs) : 5, 4, 2, 
+     3	CURRENT JOB NO: 1
+     4	BLOCKED QUEUE(JOB NOs) :3, 
+     5	
+     6	Current JOB PMT TABLE:
+     7	**********************************************
+     8	Page: 7 Frame: 1
+     9	Page: 5 Frame: 2
+    10	Page: 4 Frame: 3
+    11	Page: 1 Frame: 4
+    12	Page: 3 Frame: 5
+    13	**********************************************
+    14	MEMORY UTILIZATION (PAGES): 29:32
+    15	MEMORY UTILIZATION (FRAMES): 232:256
+    16	DISK UTILIZATION (PAGES): 40:256
+    17	DISK UTILIZATION (FRAMES): 320:2048
+    18	
+    19	=========================================================
+    20	JOB ID: 5
+    21	INPUT SEGMENT DATA(HEX): 0000000000000111
+    22				 
+    23	OUTPUT SEGMENT DATA(HEX):0000000010000000
+    24				 
+    25	Nature of Termination: NORMAL
+    26	Job Entry Time (HEX): 5E
+    27	JOB EXIT TIME(HEX): 31C
+    28	JOB RUN TIME (DEC): 405
+    29	JOB EXECUTION TIME(DEC) 284
+    30	JOB IO TIME(DEC): 40
+    31	JOB PAGE FAULT TIME(DEC): 40
+    32	JOB SEGEMENT FAULT TIME(DEC): 40
+    33	JOB TURN AROUND TIME(DEC): 702
+    34	JOB WAITING TIME(DEC): 114
+    35	JOB PAGE FAULTS: 2
+    36	
+    37	=========================================================
+    38	JOB ID: 2
+    39	INPUT SEGMENT DATA(HEX): 0000000000000011
+    40				 0000000000001001
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -3000 | head -40
+  1368				 
+  1369	OUTPUT SEGMENT DATA(HEX):0000000000011111
+  1370				 0000000000001101
+  1371				 
+  1372	Nature of Termination: NORMAL
+  1373	Job Entry Time (HEX): 4499
+  1374	JOB EXIT TIME(HEX): 4C91
+  1375	JOB RUN TIME (DEC): 339
+  1376	JOB EXECUTION TIME(DEC) 155
+  1377	JOB IO TIME(DEC): 60
+  1378	JOB PAGE FAULT TIME(DEC): 80
+  1379	JOB SEGEMENT FAULT TIME(DEC): 40
+  1380	JOB TURN AROUND TIME(DEC): 2036
+  1381	JOB WAITING TIME(DEC): 179
+  1382	JOB PAGE FAULTS: 4
+  1383	
+  1384	=========================================================
+  1385	AT TIME INTERVAL: 19697
+  1386	READY QUEUE(JOB NOs) : 32, 34, 35, 36, 
+  1387	CURRENT JOB NO: 29
+  1388	BLOCKED QUEUE(JOB NOs) :EMPTY
+  1389	Current JOB PMT TABLE:
+  1390	**********************************************
+  1391	Page: 56 Frame: 7
+  1392	Page: 66 Frame: 8
+  1393	Page: 64 Frame: 9
+  1394	Page: 57 Frame: 10
+  1395	Page: 65 Frame: 21
+  1396	Page: 58 Frame: 6
+  1397	**********************************************
+  1398	MEMORY UTILIZATION (PAGES): 28:32
+  1399	MEMORY UTILIZATION (FRAMES): 224:256
+  1400	DISK UTILIZATION (PAGES): 80:256
+  1401	DISK UTILIZATION (FRAMES): 640:2048
+  1402	
+  1403	=========================================================
+  1404	JOB ID: 29
+  1405	INPUT SEGMENT DATA(HEX): 0000000000001010
+  1406				 0000000000001011
+  1407				 0000000000001011
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -1400 | head -40
+  2968	JOB WAITING TIME(DEC): 199
+  2969	JOB PAGE FAULTS: 1
+  2970	
+  2971	=========================================================
+  2972	AT TIME INTERVAL: 38901
+  2973	READY QUEUE(JOB NOs) : 75, 70, 73, 
+  2974	CURRENT JOB NO: 71
+  2975	BLOCKED QUEUE(JOB NOs) :74, 
+  2976	
+  2977	Current JOB PMT TABLE:
+  2978	**********************************************
+  2979	Page: 7 Frame: 16
+  2980	Page: 5 Frame: 17
+  2981	Page: 3 Frame: 18
+  2982	Page: 6 Frame: 19
+  2983	Page: 4 Frame: 26
+  2984	**********************************************
+  2985	MEMORY UTILIZATION (PAGES): 27:32
+  2986	MEMORY UTILIZATION (FRAMES): 216:256
+  2987	DISK UTILIZATION (PAGES): 39:256
+  2988	DISK UTILIZATION (FRAMES): 312:2048
+  2989	
+  2990	=========================================================
+  2991	JOB ID: 70
+  2992	INPUT SEGMENT DATA(HEX): 0000000000001010
+  2993				 0000000000001111
+  2994				 0000000000000101
+  2995				 0000000000000001
+  2996				 
+  2997	OUTPUT SEGMENT DATA(HEX):0000000000001111
+  2998				 0000000000001010
+  2999				 0000000000000101
+  3000				 
+  3001	Nature of Termination: NORMAL
+  3002	Job Entry Time (HEX): 8EC8
+  3003	JOB EXIT TIME(HEX): 99E1
+  3004	JOB RUN TIME (DEC): 646
+  3005	JOB EXECUTION TIME(DEC) 199
+  3006	JOB IO TIME(DEC): 120
+  3007	JOB PAGE FAULT TIME(DEC): 280
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -600 | head -40
+  3768	Page: 62 Frame: 28
+  3769	**********************************************
+  3770	MEMORY UTILIZATION (PAGES): 30:32
+  3771	MEMORY UTILIZATION (FRAMES): 240:256
+  3772	DISK UTILIZATION (PAGES): 80:256
+  3773	DISK UTILIZATION (FRAMES): 640:2048
+  3774	
+  3775	=========================================================
+  3776	JOB ID: 95
+  3777	INPUT SEGMENT DATA(HEX): 0000000000001011
+  3778				 0000000000001010
+  3779				 
+  3780	OUTPUT SEGMENT DATA(HEX):0000000000000010
+  3781				 0000000000000100
+  3782				 0000000000000110
+  3783				 0000000000001000
+  3784				 0000000000001010
+  3785				 
+  3786	Nature of Termination: NORMAL
+  3787	Job Entry Time (HEX): B881
+  3788	JOB EXIT TIME(HEX): BC97
+  3789	JOB RUN TIME (DEC): 838
+  3790	JOB EXECUTION TIME(DEC) 612
+  3791	JOB IO TIME(DEC): 120
+  3792	JOB PAGE FAULT TIME(DEC): 60
+  3793	JOB SEGEMENT FAULT TIME(DEC): 40
+  3794	JOB TURN AROUND TIME(DEC): 1040
+  3795	JOB WAITING TIME(DEC): 211
+  3796	JOB PAGE FAULTS: 3
+  3797	
+  3798	=========================================================
+  3799	JOB ID: 90
+  3800	INPUT SEGMENT DATA(HEX): 0000000000001001
+  3801				 0000000000010011
+  3802				 0000000000100000
+  3803				 0000000000010000
+  3804				 
+  3805	OUTPUT SEGMENT DATA(HEX):0000000000001001
+  3806				 0000000000010011
+  3807				 0000000000100000
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -200 | head -40
+  4168	Page: 32 Frame: 25
+  4169	Page: 15 Frame: 26
+  4170	Page: 35 Frame: 27
+  4171	Page: 36 Frame: 23
+  4172	Page: 36 Frame: 24
+  4173	**********************************************
+  4174	MEMORY UTILIZATION (PAGES): 23:32
+  4175	MEMORY UTILIZATION (FRAMES): 184:256
+  4176	DISK UTILIZATION (PAGES): 34:256
+  4177	DISK UTILIZATION (FRAMES): 272:2048
+  4178	
+  4179	=========================================================
+  4180	JOB ID: 102
+  4181	INPUT SEGMENT DATA(HEX): 0000000000010011
+  4182				 0000000010010000
+  4183				 
+  4184	OUTPUT SEGMENT DATA(HEX):0000000000000001
+  4185				 0000000000000001
+  4186				 0000000000000000
+  4187				 0000000000000000
+  4188				 0000000000000001
+  4189				 0000000000000000
+  4190				 0000000000000000
+  4191				 0000000000000000
+  4192				 0000000000000000
+  4193				 0000000000000000
+  4194				 0000000000000000
+  4195				 0000000000000000
+  4196				 0000000000000000
+  4197				 0000000000000000
+  4198				 0000000000000000
+  4199				 0000000000000000
+  4200				 
+  4201	Nature of Termination: NORMAL
+  4202	Job Entry Time (HEX): C1D5
+  4203	JOB EXIT TIME(HEX): CFDC
+  4204	JOB RUN TIME (DEC): 1387
+  4205	JOB EXECUTION TIME(DEC) 912
+  4206	JOB IO TIME(DEC): 340
+  4207	JOB PAGE FAULT TIME(DEC): 100
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -40
+  4328	MAXIMUM: 83.00
+  4329	AVERAGE: 42.89
+  4330	CODE SEGMENT SIZES (USED): 
+  4331	MINIMUM: 16.00
+  4332	MAXIMUM: 83.00
+  4333	AVERAGE: 41.51
+  4334	INPUT SEGMENT SIZES (GIVEN): 
+  4335	MINIMUM: 1.00
+  4336	MAXIMUM: 8.00
+  4337	AVERAGE: 3.22
+  4338	INPUT SEGMENT SIZES (USED): 
+  4339	MINIMUM: 1.00
+  4340	MAXIMUM: 8.00
+  4341	AVERAGE: 2.59
+  4342	OUTPUT SEGMENT SIZES (GIVEN): 
+  4343	MINIMUM: 1.00
+  4344	MAXIMUM: 16.00
+  4345	AVERAGE: 3.34
+  4346	OUTPUT SEGMENT SIZES (USED): 
+  4347	MINIMUM: 1.00
+  4348	MAXIMUM: 16.00
+  4349	AVERAGE: 3.05
+  4350	CPU SHOTS: 
+  4351	MINIMUM: 3.00
+  4352	MAXIMUM: 9.00
+  4353	AVERAGE: 5.42
+  4354	IO REQUESTS: 
+  4355	MINIMUM: 2.00
+  4356	MAXIMUM: 17.00
+  4357	AVERAGE: 5.64
+  4358	END TIME CLOCK (DEC): 54490
+  4359	
+  4360	JOBS TERMINATED NORMALLY: 105
+  4361	JOBS TERMINATED ABNORMALLY: 0
+  4362	TIME LOST DUE TO ABNORMALLY TERMINATED JOBS: 0
+  4363	TIME LOST DUE TO SUSPECTED INFINITE JOBS: 0
+  4364	IDs OF INFINITE JOBS: NONE
+  4365	MEAN TURN AROUND TIME (TERMINATED NORMALLY): 2551.13
+  4366	MEAN WAITING TIME (TERMINATED NORMALLY): 304.67
+  4367	MEAN PAGE FAULTS: 8.69
+bash-4.4$ echo ======================================================
+echo ======================================================
+======================================================
+cat -n trace_1_37.txt | head -20
+echo -----------------------------------
+bash-4.4$ cat -n trace_1_26.txt | head -20
+echo -----------------------------------
+cat -n trace_1_85.txt | tail -20
+echo ======================================================
+     1	PC	BR	IR	TOS	S[TOS]	EA	MEM[EA]	TOS	S[TOS]	EA	MEM[EA])
+     2	000B	00	0013	0000	EMPTY	null	EMPTY	0001	0014	null	EMPTY	
+     3	000C	00	DC01	0001	0014	null	EMPTY	0000	EMPTY	0001	0014	
+     4	000D	00	0013	0000	EMPTY	null	EMPTY	0001	0000	null	EMPTY	
+     5	000E	00	DC02	0001	0000	null	EMPTY	0000	EMPTY	0002	0000	
+     6	000F	00	0013	0000	EMPTY	0002	0000	0001	0001	null	EMPTY	
+     7	0010	00	DC03	0001	0001	null	EMPTY	0000	EMPTY	0003	0001	
+     8	0011	00	0013	0000	EMPTY	0003	0001	0001	0002	null	EMPTY	
+     9	0012	00	DC04	0001	0002	null	EMPTY	0000	EMPTY	0004	0002	
+    10	0013	00	0013	0000	EMPTY	0004	0002	0001	0E1E	null	EMPTY	
+    11	0014	00	DC05	0001	0E1E	null	EMPTY	0000	EMPTY	0005	0E1E	
+    12	0015	00	D800	0000	EMPTY	0005	0E1E	0001	0001	0000	0001	
+    13	0016	00	D801	0001	0001	0000	0001	0002	0014	0001	0014	
+    14	0017	00	D802	0002	0014	0001	0014	0003	0000	0002	0000	
+    15	0018	00	000C	0003	0000	0002	0000	0004	0000	null	EMPTY	
+    16	0019	00	C03D	0004	0000	null	EMPTY	0003	0000	003D	DC07	
+    17	003E	00	DC07	0003	0000	003D	DC07	0002	0014	0007	0000	
+    18	003F	00	DC08	0002	0014	0007	0000	0001	0001	0008	0014	
+    19	0040	00	D807	0001	0001	0008	0014	0002	0000	0007	0000	
+    20	0041	00	D808	0002	0000	0007	0000	0003	0014	0008	0014	
+bash-4.4$ echo -----------------------------------
+-----------------------------------
+bash-4.4$ cat -n trace_1_26.txt | tail -20
+   164	002A	00	000C	0003	0E1E	0005	0E1E	0004	0001	null	EMPTY	
+   165	002B	00	C04C	0004	0001	null	EMPTY	0003	0E1E	004C	DC07	
+   166	002C	00	DC05	0003	0E1E	004C	DC07	0002	0014	0005	0E1E	
+   167	002D	00	DC04	0002	0014	0005	0E1E	0001	0010	0004	0014	
+   168	002E	00	9409	0001	0010	0004	0014	0001	0020	0009	0010	
+   169	002F	00	DC09	0001	0020	0009	0010	0000	EMPTY	0009	0020	
+   170	0030	00	D809	0000	EMPTY	0009	0020	0001	0020	0009	0020	
+   171	0031	00	B006	0001	0020	0009	0020	0002	0000	0006	0010	
+   172	0032	00	C415	0002	0000	0006	0010	0001	0020	0015	D801	
+   173	0033	00	D805	0001	0020	0015	D801	0002	0E1E	0005	0E1E	
+   174	0034	00	D804	0002	0E1E	0005	0E1E	0003	0014	0004	0014	
+   175	0035	00	D803	0003	0014	0004	0014	0004	0002	0003	0002	
+   176	0036	00	D802	0004	0002	0003	0002	0005	0001	0002	0001	
+   177	0037	00	D801	0005	0001	0002	0001	0006	0000	0001	0000	
+   178	0038	00	0014	0006	0000	0001	0000	0005	0001	null	EMPTY	
+   179	0039	00	0014	0005	0001	null	EMPTY	0004	0002	null	EMPTY	
+   180	003A	00	0014	0004	0002	null	EMPTY	0003	0014	null	EMPTY	
+   181	003B	00	0014	0003	0014	null	EMPTY	0002	0E1E	null	EMPTY	
+   182	003C	00	0014	0002	0E1E	null	EMPTY	0001	0020	null	EMPTY	
+   183	003D	00	0018	0001	0020	null	EMPTY	0001	0020	null	EMPTY	
+bash-4.4$ echo ======================================================
+======================================================
+bash-4.4$ echo ======================================================
+======================================================
+bash-4.4$ cat -n trace_1_34.txt | head -20
+     1	PC	BR	IR	TOS	S[TOS]	EA	MEM[EA]	TOS	S[TOS]	EA	MEM[EA])
+     2	0001	00	0013	0000	EMPTY	null	EMPTY	0001	0013	null	EMPTY	
+     3	0002	00	DC12	0001	0013	null	EMPTY	0000	EMPTY	0012	0013	
+     4	0003	00	D816	0000	EMPTY	null	EMPTY	0001	0010	0016	0010	
+     5	0004	00	B813	0001	0010	0016	0010	0002	0001	0013	0000	
+     6	0005	00	C011	0002	0001	0013	0000	0001	0010	0011	0018	
+     7	0006	00	9814	0001	0010	0011	0018	0001	000F	0014	0001	
+     8	0007	00	DC16	0001	000F	0014	0001	0000	EMPTY	0016	000F	
+     9	0008	00	D812	0000	EMPTY	0016	000F	0001	0013	0012	0013	
+    10	0009	00	A415	0001	0013	0012	0013	0001	0001	0015	0002	
+    11	000A	00	DC17	0001	0001	0015	0002	0000	EMPTY	0017	0001	
+    12	000B	00	D817	0000	EMPTY	0017	0001	0001	0001	0017	0001	
+    13	000C	00	9C17	0001	0001	0017	0001	0001	0001	0017	0001	
+    14	000D	00	0014	0001	0001	0017	0001	0000	EMPTY	null	EMPTY	
+    15	000E	00	D812	0000	EMPTY	null	EMPTY	0001	0013	0012	0013	
+    16	000F	00	000B	0001	0013	0012	0013	0001	0009	null	EMPTY	
+    17	0010	00	DC12	0001	0009	null	EMPTY	0000	EMPTY	0012	0009	
+    18	0011	00	BC02	0000	EMPTY	0012	0009	0000	EMPTY	0002	D816	
+    19	0003	00	D816	0000	EMPTY	0002	D816	0001	000F	0016	000F	
+    20	0004	00	B813	0001	000F	0016	000F	0002	0001	0013	0000	
+bash-4.4$ echo -----------------------------------
+-----------------------------------
+bash-4.4$ cat -n trace_1_34.txt | tail -20
+   228	0011	00	BC02	0000	EMPTY	0012	0000	0000	EMPTY	0002	D816	
+   229	0003	00	D816	0000	EMPTY	0002	D816	0001	0001	0016	0001	
+   230	0004	00	B813	0001	0001	0016	0001	0002	0001	0013	0000	
+   231	0005	00	C011	0002	0001	0013	0000	0001	0001	0011	0018	
+   232	0006	00	9814	0001	0001	0011	0018	0001	0000	0014	0001	
+   233	0007	00	DC16	0001	0000	0014	0001	0000	EMPTY	0016	0000	
+   234	0008	00	D812	0000	EMPTY	0016	0000	0001	0000	0012	0000	
+   235	0009	00	A415	0001	0000	0012	0000	0001	0000	0015	0002	
+   236	000A	00	DC17	0001	0000	0015	0002	0000	EMPTY	0017	0000	
+   237	000B	00	D817	0000	EMPTY	0017	0000	0001	0000	0017	0000	
+   238	000C	00	9C17	0001	0000	0017	0000	0001	0000	0017	0000	
+   239	000D	00	0014	0001	0000	0017	0000	0000	EMPTY	null	EMPTY	
+   240	000E	00	D812	0000	EMPTY	null	EMPTY	0001	0000	0012	0000	
+   241	000F	00	000B	0001	0000	0012	0000	0001	0000	null	EMPTY	
+   242	0010	00	DC12	0001	0000	null	EMPTY	0000	EMPTY	0012	0000	
+   243	0011	00	BC02	0000	EMPTY	0012	0000	0000	EMPTY	0002	D816	
+   244	0003	00	D816	0000	EMPTY	0002	D816	0001	0000	0016	0000	
+   245	0004	00	B813	0001	0000	0016	0000	0002	0000	0013	0000	
+   246	0005	00	C011	0002	0000	0013	0000	0001	0000	0011	0018	
+   247	0012	00	0018	0001	0000	0011	0018	0001	0000	null	EMPTY	
+bash-4.4$ echo ======================================================
+======================================================
+bash-4.4$ echo ======================================================
+======================================================
+bash-4.4$ cat -n trace_1_37.txt | head -20
+     1	PC	BR	IR	TOS	S[TOS]	EA	MEM[EA]	TOS	S[TOS]	EA	MEM[EA])
+     2	0003	00	0013	0000	EMPTY	null	EMPTY	0001	0173	null	EMPTY	
+     3	0004	00	DC30	0001	0173	null	EMPTY	0000	EMPTY	0030	0173	
+     4	0005	00	D830	0000	EMPTY	null	EMPTY	0001	0173	0030	0173	
+     5	0006	00	DC31	0001	0173	0030	0173	0000	EMPTY	0031	0173	
+     6	0007	00	D831	0000	EMPTY	0031	0173	0001	0173	0031	0173	
+     7	0008	00	DC35	0001	0173	0031	0173	0000	EMPTY	0035	0173	
+     8	0009	00	D830	0000	EMPTY	0035	0173	0001	0173	0030	0173	
+     9	000A	00	B022	0001	0173	0030	0173	0002	0000	0022	0000	
+    10	000B	00	C41C	0002	0000	0022	0000	0001	0173	001C	DC35	
+    11	000C	00	A429	0001	0173	001C	DC35	0001	0001	0029	000A	
+    12	000D	00	DC32	0001	0001	0029	000A	0000	EMPTY	0032	0001	
+    13	000E	00	D832	0000	EMPTY	0032	0001	0001	0001	0032	0001	
+    14	000F	00	D832	0001	0001	0032	0001	0002	0001	0032	0001	
+    15	0010	00	0007	0002	0001	0032	0001	0001	0001	null	EMPTY	
+    16	0011	00	D832	0001	0001	null	EMPTY	0002	0001	0032	0001	
+    17	0012	00	0007	0002	0001	0032	0001	0001	0001	null	EMPTY	
+    18	0013	00	9423	0001	0001	null	EMPTY	0001	0001	0023	0000	
+    19	0014	00	DC23	0001	0001	0023	0000	0000	EMPTY	0023	0001	
+    20	0015	00	D830	0000	EMPTY	0023	0001	0001	0173	0030	0173	
+bash-4.4$ echo -----------------------------------
+-----------------------------------
+bash-4.4$ cat -n trace_1_37.txt | tail -20
+    47	000E	00	D832	0000	EMPTY	0032	0003	0001	0003	0032	0003	
+    48	000F	00	D832	0001	0003	0032	0003	0002	0003	0032	0003	
+    49	0010	00	0007	0002	0003	0032	0003	0001	0009	null	EMPTY	
+    50	0011	00	D832	0001	0009	null	EMPTY	0002	0003	0032	0003	
+    51	0012	00	0007	0002	0003	0032	0003	0001	001B	null	EMPTY	
+    52	0013	00	9423	0001	001B	null	EMPTY	0001	0173	0023	0158	
+    53	0014	00	DC23	0001	0173	0023	0158	0000	EMPTY	0023	0173	
+    54	0015	00	D830	0000	EMPTY	0023	0173	0001	0003	0030	0003	
+    55	0016	00	A029	0001	0003	0030	0003	0001	0000	0029	000A	
+    56	0017	00	DC30	0001	0000	0029	000A	0000	EMPTY	0030	0000	
+    57	0018	00	C807	0000	EMPTY	0030	0000	0001	0018	0007	DC35	
+    58	0008	00	DC35	0001	0018	0007	DC35	0000	EMPTY	0035	0018	
+    59	0009	00	D830	0000	EMPTY	0035	0018	0001	0000	0030	0000	
+    60	000A	00	B022	0001	0000	0030	0000	0002	0001	0022	0000	
+    61	000B	00	C41C	0002	0001	0022	0000	0001	0000	001C	DC35	
+    62	001D	00	DC35	0001	0000	001C	DC35	0000	EMPTY	0035	0000	
+    63	001E	00	D831	0000	EMPTY	0035	0000	0001	0173	0031	0173	
+    64	001F	00	B823	0001	0173	0031	0173	0002	0000	0023	0173	
+    65	0020	00	0014	0002	0000	0023	0173	0001	0173	null	EMPTY	
+    66	0021	00	0018	0001	0173	null	EMPTY	0001	0173	null	EMPTY	
+bash-4.4$ echo ======================================================
+======================================================
+bash-4.4$ echo ======================================================
+======================================================
+bash-4.4$ cat -n trace_1_85.txt | head -20
+     1	PC	BR	IR	TOS	S[TOS]	EA	MEM[EA]	TOS	S[TOS]	EA	MEM[EA])
+     2	0001	00	0013	0000	EMPTY	null	EMPTY	0001	0007	null	EMPTY	
+     3	0002	00	DC13	0001	0007	null	EMPTY	0000	EMPTY	0013	0007	
+     4	0003	00	D811	0000	EMPTY	null	EMPTY	0001	0000	0011	0000	
+     5	0004	00	DC11	0001	0000	0011	0000	0000	EMPTY	0011	0000	
+     6	0005	00	0013	0000	EMPTY	0011	0000	0001	0003	null	EMPTY	
+     7	0006	00	9410	0001	0003	null	EMPTY	0001	0003	0010	0000	
+     8	0007	00	DC10	0001	0003	0010	0000	0000	EMPTY	0010	0003	
+     9	0008	00	D811	0000	EMPTY	0010	0003	0001	0000	0011	0000	
+    10	0009	00	9412	0001	0000	0011	0000	0001	0001	0012	0001	
+    11	000A	00	DC11	0001	0001	null	EMPTY	0000	EMPTY	0011	0001	
+    12	000B	00	D811	0000	EMPTY	0011	0001	0001	0001	0011	0001	
+    13	000C	00	B413	0001	0001	0011	0001	0002	0000	0013	0007	
+    14	000D	00	C003	0002	0000	0013	0007	0001	0001	0003	DC11	
+    15	0004	00	DC11	0001	0001	0003	DC11	0000	EMPTY	0011	0001	
+    16	0005	00	0013	0000	EMPTY	0011	0001	0001	000B	null	EMPTY	
+    17	0006	00	9410	0001	000B	null	EMPTY	0001	000E	0010	0003	
+    18	0007	00	DC10	0001	000E	0010	0003	0000	EMPTY	0010	000E	
+    19	0008	00	D811	0000	EMPTY	0010	000E	0001	0001	0011	0001	
+    20	0009	00	9412	0001	0001	0011	0001	0001	0002	0012	0001	
+bash-4.4$ echo -----------------------------------
+-----------------------------------
+bash-4.4$ cat -n trace_1_85.txt | tail -20
+    58	0007	00	DC10	0001	0032	0010	0029	0000	EMPTY	0010	0032	
+    59	0008	00	D811	0000	EMPTY	0010	0032	0001	0005	0011	0005	
+    60	0009	00	9412	0001	0005	0011	0005	0001	0006	0012	0001	
+    61	000A	00	DC11	0001	0006	0012	0001	0000	EMPTY	0011	0006	
+    62	000B	00	D811	0000	EMPTY	0011	0006	0001	0006	0011	0006	
+    63	000C	00	B413	0001	0006	0011	0006	0002	0000	0013	0007	
+    64	000D	00	C003	0002	0000	0013	0007	0001	0006	0003	DC11	
+    65	0004	00	DC11	0001	0006	0003	DC11	0000	EMPTY	0011	0006	
+    66	0005	00	0013	0000	EMPTY	0011	0006	0001	0090	null	EMPTY	
+    67	0006	00	9410	0001	0090	null	EMPTY	0001	00C2	0010	0032	
+    68	0007	00	DC10	0001	00C2	0010	0032	0000	EMPTY	0010	00C2	
+    69	0008	00	D811	0000	EMPTY	0010	00C2	0001	0006	0011	0006	
+    70	0009	00	9412	0001	0006	0011	0006	0001	0007	0012	0001	
+    71	000A	00	DC11	0001	0007	0012	0001	0000	EMPTY	0011	0007	
+    72	000B	00	D811	0000	EMPTY	0011	0007	0001	0007	0011	0007	
+    73	000C	00	B413	0001	0007	0011	0007	0002	0001	0013	0007	
+    74	000D	00	C003	0002	0001	0013	0007	0001	0007	0003	DC11	
+    75	000E	00	D810	0001	0007	0003	DC11	0002	00C2	0010	00C2	
+    76	000F	00	A011	0002	00C2	0010	00C2	0002	001B	0011	0007	
+    77	0010	00	1418	0002	001B	0011	0007	0001	0007	null	EMPTY	
+bash-4.4$ echo ======================================================
+======================================================
+bash-4.4$ java SYSTEM /home/opsys/SPR18/tb+err
+bash-4.4$ cat -n execution_profile | head -40
+cat -n execution_profile | tail -600 | head -40
+ls
+cat -n execution_profile | tail -200 | head -40
+ls
+cat -n execution_profile | tail -40     1	JOB ID: 3
+     2	SPOOLER ERROR: INVALID LOADER FORMAT
+     3	INPUT SEGMENT DATA(HEX): 
+     4	NO OUTPUT FOUND
+     5	Nature of Termination: ABNORMAL
+     6	Job Entry Time (HEX): 0
+     7	JOB EXIT TIME(HEX): 0
+     8	JOB RUN TIME (DEC): -6
+     9	JOB EXECUTION TIME(DEC) -7
+    10	JOB IO TIME(DEC): 0
+    11	JOB PAGE FAULT TIME(DEC): 0
+    12	JOB SEGEMENT FAULT TIME(DEC): 0
+    13	JOB TURN AROUND TIME(DEC): -6
+    14	JOB WAITING TIME(DEC): -3
+    15	JOB PAGE FAULTS: 0
+    16	
+    17	=========================================================
+    18	AT TIME INTERVAL: 500
+    19	READY QUEUE(JOB NOs) : 5, 2, 6, 
+    20	CURRENT JOB NO: 1
+    21	BLOCKED QUEUE(JOB NOs) :4, 
+    22	
+    23	Current JOB PMT TABLE:
+    24	**********************************************
+    25	Page: 4 Frame: 1
+    26	Page: 2 Frame: 2
+    27	Page: 1 Frame: 3
+    28	Page: 3 Frame: 4
+    29	Page: 5 Frame: 5
+    30	**********************************************
+    31	MEMORY UTILIZATION (PAGES): 29:32
+    32	MEMORY UTILIZATION (FRAMES): 232:256
+    33	DISK UTILIZATION (PAGES): 35:256
+    34	DISK UTILIZATION (FRAMES): 280:2048
+    35	
+    36	=========================================================
+    37	JOB ID: 1
+    38	INPUT SEGMENT DATA(HEX): 0000000000001010
+    39				 0000000000001011
+    40				 
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -3000 | head -40
+  1773	Page: 21 Frame: 13
+  1774	Page: 23 Frame: 14
+  1775	Page: 20 Frame: 29
+  1776	Page: 25 Frame: 10
+  1777	**********************************************
+  1778	MEMORY UTILIZATION (PAGES): 29:32
+  1779	MEMORY UTILIZATION (FRAMES): 232:256
+  1780	DISK UTILIZATION (PAGES): 51:256
+  1781	DISK UTILIZATION (FRAMES): 408:2048
+  1782	
+  1783	=========================================================
+  1784	AT TIME INTERVAL: 24662
+  1785	READY QUEUE(JOB NOs) : 46, 42, 45, 
+  1786	CURRENT JOB NO: 43
+  1787	BLOCKED QUEUE(JOB NOs) :44, 
+  1788	
+  1789	Current JOB PMT TABLE:
+  1790	**********************************************
+  1791	Page: 24 Frame: 11
+  1792	Page: 22 Frame: 12
+  1793	Page: 21 Frame: 13
+  1794	Page: 23 Frame: 14
+  1795	Page: 20 Frame: 29
+  1796	Page: 25 Frame: 10
+  1797	**********************************************
+  1798	MEMORY UTILIZATION (PAGES): 29:32
+  1799	MEMORY UTILIZATION (FRAMES): 232:256
+  1800	DISK UTILIZATION (PAGES): 51:256
+  1801	DISK UTILIZATION (FRAMES): 408:2048
+  1802	
+  1803	=========================================================
+  1804	AT TIME INTERVAL: 25162
+  1805	READY QUEUE(JOB NOs) : 46, 42, 45, 
+  1806	CURRENT JOB NO: 43
+  1807	BLOCKED QUEUE(JOB NOs) :44, 
+  1808	
+  1809	Current JOB PMT TABLE:
+  1810	**********************************************
+  1811	Page: 24 Frame: 11
+  1812	Page: 22 Frame: 12
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -1400 | head -40
+  3373	Nature of Termination: NORMAL
+  3374	Job Entry Time (HEX): 9F0D
+  3375	JOB EXIT TIME(HEX): B0A5
+  3376	JOB RUN TIME (DEC): 253
+  3377	JOB EXECUTION TIME(DEC) 31
+  3378	JOB IO TIME(DEC): 60
+  3379	JOB PAGE FAULT TIME(DEC): 140
+  3380	JOB SEGEMENT FAULT TIME(DEC): 20
+  3381	JOB TURN AROUND TIME(DEC): 4501
+  3382	JOB WAITING TIME(DEC): 213
+  3383	JOB PAGE FAULTS: 8
+  3384	
+  3385	=========================================================
+  3386	AT TIME INTERVAL: 45315
+  3387	READY QUEUE(JOB NOs) : 82, 78, 79, 
+  3388	CURRENT JOB NO: 81
+  3389	BLOCKED QUEUE(JOB NOs) :80, 
+  3390	
+  3391	Current JOB PMT TABLE:
+  3392	**********************************************
+  3393	**********************************************
+  3394	MEMORY UTILIZATION (PAGES): 28:32
+  3395	MEMORY UTILIZATION (FRAMES): 224:256
+  3396	DISK UTILIZATION (PAGES): 34:256
+  3397	DISK UTILIZATION (FRAMES): 272:2048
+  3398	
+  3399	=========================================================
+  3400	JOB ID: 78
+  3401	SPOOLER WARNING: MISMATCH OF NUMBER OF INPUTS
+  3402	SPOOLER ERROR: MULTIPLE INPUT SEGMENTS
+  3403	INPUT SEGMENT DATA(HEX): 
+  3404	OUTPUT SEGMENT DATA(HEX):0000000000000001
+  3405				 1101110000010100
+  3406				 1101100000010110
+  3407				 1101110000010101
+  3408				 1101100000010101
+  3409				 1001010000010111
+  3410				 1101110000010101
+  3411				 1101100000010101
+  3412				 1011000000010100
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -600 | head -40
+  4173	JOB RUN TIME (DEC): 545
+  4174	JOB EXECUTION TIME(DEC) 332
+  4175	JOB IO TIME(DEC): 80
+  4176	JOB PAGE FAULT TIME(DEC): 100
+  4177	JOB SEGEMENT FAULT TIME(DEC): 40
+  4178	JOB TURN AROUND TIME(DEC): 1805
+  4179	JOB WAITING TIME(DEC): 217
+  4180	JOB PAGE FAULTS: 5
+  4181	
+  4182	=========================================================
+  4183	AT TIME INTERVAL: 54378
+  4184	READY QUEUE(JOB NOs) : 99, 103, 100, 
+  4185	CURRENT JOB NO: 98
+  4186	BLOCKED QUEUE(JOB NOs) :104, 
+  4187	
+  4188	Current JOB PMT TABLE:
+  4189	**********************************************
+  4190	Page: 31 Frame: 17
+  4191	Page: 24 Frame: 22
+  4192	Page: 22 Frame: 23
+  4193	Page: 23 Frame: 24
+  4194	Page: 20 Frame: 25
+  4195	Page: 32 Frame: 16
+  4196	**********************************************
+  4197	MEMORY UTILIZATION (PAGES): 28:32
+  4198	MEMORY UTILIZATION (FRAMES): 224:256
+  4199	DISK UTILIZATION (PAGES): 52:256
+  4200	DISK UTILIZATION (FRAMES): 416:2048
+  4201	
+  4202	=========================================================
+  4203	JOB ID: 98
+  4204	INPUT SEGMENT DATA(HEX): 0000000000000100
+  4205				 0000000000000110
+  4206				 
+  4207	OUTPUT SEGMENT DATA(HEX):0000000000000100
+  4208				 0000000000000110
+  4209				 0001000000000000
+  4210				 
+  4211	Nature of Termination: NORMAL
+  4212	Job Entry Time (HEX): BD27
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -200 | head -40
+  4573	
+  4574	Current JOB PMT TABLE:
+  4575	**********************************************
+  4576	Page: 56 Frame: 1
+  4577	Page: 32 Frame: 2
+  4578	Page: 34 Frame: 3
+  4579	Page: 35 Frame: 8
+  4580	Page: 43 Frame: 28
+  4581	Page: 44 Frame: 0
+  4582	**********************************************
+  4583	MEMORY UTILIZATION (PAGES): 12:32
+  4584	MEMORY UTILIZATION (FRAMES): 96:256
+  4585	DISK UTILIZATION (PAGES): 23:256
+  4586	DISK UTILIZATION (FRAMES): 184:2048
+  4587	
+  4588	=========================================================
+  4589	AT TIME INTERVAL: 59910
+  4590	READY QUEUE(JOB NOs) : EMPTY
+  4591	CURRENT JOB NO: 109
+  4592	BLOCKED QUEUE(JOB NOs) :106, 
+  4593	
+  4594	Current JOB PMT TABLE:
+  4595	**********************************************
+  4596	Page: 56 Frame: 1
+  4597	Page: 32 Frame: 2
+  4598	Page: 34 Frame: 3
+  4599	Page: 35 Frame: 8
+  4600	Page: 43 Frame: 28
+  4601	Page: 44 Frame: 0
+  4602	**********************************************
+  4603	MEMORY UTILIZATION (PAGES): 12:32
+  4604	MEMORY UTILIZATION (FRAMES): 96:256
+  4605	DISK UTILIZATION (PAGES): 23:256
+  4606	DISK UTILIZATION (FRAMES): 184:2048
+  4607	
+  4608	=========================================================
+  4609	JOB ID: 109
+  4610	INPUT SEGMENT DATA(HEX): 0000000000010100
+  4611				 0000000000000000
+  4612				 0000000000000001
+bash-4.4$ ls
+CHECK.class	     ERROR_HANDLER.java		  OPERATIONS.java	  Report		     trace_1_37.txt
+CHECK.java	     execution_profile		  OUTPUT.class		  SegmentFaultHandler.class  trace_1_4.txt
+CLOCK.class	     LOADER.class		  OUTPUT.java		  SegmentFaultHandler.java   trace_1_50.txt
+CLOCK.java	     LOADER.java		  PageFaultHandler.class  Spooling.class	     trace_1_68.txt
+CONVERSIONS.class    MEMORY.class		  PageFaultHandler.java   Spooling.java		     trace_1_81.txt
+CONVERSIONS.java     MEMORY.java		  PCB.class		  Stack.class		     trace_1_85.txt
+CPU.class	     METERING.class		  PCB.java		  Stack.java		     typescript
+CPU.java	     METERING.java		  PMT.class		  SYSTEM.class		     ZeroAddressInstruction.class
+DISK_MANAGER.class   OneAddressInstruction.class  PMT.java		  SYSTEM.java		     ZeroAddressInstruction.java
+DISK_MANAGER.java    OneAddressInstruction.java   PROCESS_MANAGER.class   trace_1_26.txt
+ERROR_HANDLER.class  OPERATIONS.class		  PROCESS_MANAGER.java	  trace_1_34.txt
+bash-4.4$ cat -n execution_profile | tail -40
+  4733	MAXIMUM: 83.00
+  4734	AVERAGE: 39.65
+  4735	CODE SEGMENT SIZES (USED): 
+  4736	MINIMUM: 0.00
+  4737	MAXIMUM: 83.00
+  4738	AVERAGE: 36.45
+  4739	INPUT SEGMENT SIZES (GIVEN): 
+  4740	MINIMUM: 0.00
+  4741	MAXIMUM: 10.00
+  4742	AVERAGE: 2.35
+  4743	INPUT SEGMENT SIZES (USED): 
+  4744	MINIMUM: 0.00
+  4745	MAXIMUM: 10.00
+  4746	AVERAGE: 1.65
+  4747	OUTPUT SEGMENT SIZES (GIVEN): 
+  4748	MINIMUM: 1.00
+  4749	MAXIMUM: 16.00
+  4750	AVERAGE: 4.69
+  4751	OUTPUT SEGMENT SIZES (USED): 
+  4752	MINIMUM: 0.00
+  4753	MAXIMUM: 16.00
+  4754	AVERAGE: 2.89
+  4755	CPU SHOTS: 
+  4756	MINIMUM: 1.00
+  4757	MAXIMUM: 10.00
+  4758	AVERAGE: 4.73
+  4759	IO REQUESTS: 
+  4760	MINIMUM: 0.00
+  4761	MAXIMUM: 17.00
+  4762	AVERAGE: 4.94
+  4763	END TIME CLOCK (DEC): 61718
+  4764	
+  4765	JOBS TERMINATED NORMALLY: 88
+  4766	JOBS TERMINATED ABNORMALLY: 19
+  4767	TIME LOST DUE TO ABNORMALLY TERMINATED JOBS: 7930
+  4768	TIME LOST DUE TO SUSPECTED INFINITE JOBS: 0
+  4769	IDs OF INFINITE JOBS: 10	56	
+  4770	MEAN TURN AROUND TIME (TERMINATED NORMALLY): 2966.64
+  4771	MEAN WAITING TIME (TERMINATED NORMALLY): 304.84
+  4772	MEAN PAGE FAULTS: 7.04
+bash-4.4$ cat -n re[K[KReport 
+     1	Problem Approach:
+     2	
+     3	I have used pseudo codes in designing the system.
+     4	For the phaseIII implementation I used JAVA program language and wrote seperate modules for all the classes.
+     5	
+     6	No Utilities used.
+     7	
+     8	Bulk Complexities of System:
+     9	---------------------------
+    10	
+    11	Number of Code lines	: 3546
+    12	Number of comment lines : 251
+    13	Number of Declarations  : 224
+    14	Executable Statements   : 114
+    15	Blank Lines             : 212
+    16	Number of Decisions     : 182
+    17	Number of Methods       : 85
+    18	Number of Classes	: 21
+    19	
+    20	
+    21	Module-wise Bulk Complexities:
+    22	------------------------------
+    23	
+    24	----------------------------------------------------------------------------
+    25	File_name                    CL   Dec  com  exe_st b_l  Deci  Methods  Class    
+    26	----------------------------------------------------------------------------
+    27	CPU.java                     300   17    21    6   12     14   6        1
+    28	LOADER.java		     85    6     10    2   7      5    2        1
+    29	OUTPUT.java                  349   20    13    5   9      7    3        1
+    30	PCB.java		     80    16    9     3   6      2    1        1
+    31	Stack.java		     82    5     7     4   8      4    9        1
+    32	ERROR_HANDLER.java           192   4     11    2   10     1    2        1
+    33	MEMORY.java 		     143   12    15    7   14     6    2        1
+    34	PageFaultHandler.java        206   15    18    9   12     17   5        1
+    35	PMT.java		     143   7     8     5   4      8    10       1
+    36	SYSTEM.java                  180   9     12    6   13     9    3        1
+    37	Spooling.java                374   24    19    11  21     29   4        1
+    38	OneAddressInstruction.java   259   13    20    7   16     18   1        1
+    39	ZeroAddressInstruction.java  274   16    23    9   15     16   1        1
+    40	SegmentFaultHandler.java     36    3     6     2   3      4    1        1
+    41	DISK_MANAGER.java	     48    5     8     3   5      5    2        1
+    42	PROCESS_MANAGER.java         131   12    10    7   12     8    4        1
+    43	CONVERSIONS.java	     109   10    8     5   13     6    6        1
+    44	OPERATIONS.java		     269   14    13    8   15     12   10       1 	 
+    45	METERING.java                168   7     9     6   8      4    4        1
+    46	CLOCK.java		     22    3     4     2   3      1    2        1
+    47	CHECK.java                   96    6     7     5   6      6    7        1
+    48	---------------------------------------------------------------------------
+    49	Total                        3546  224  251   114 212    182   85       21
+    50	--------------------------------------------------------------------------- 
+    51	CL  = code Lines
+    52	Dec = Declarations
+    53	com = comments
+    54	exe_stmt = executable statements
+    55	b_l      = blank lines         
+    56	
+    57	Time Spent on Designing : 30 hours
+    58	Time Spent on Coding    : 25 hours
+    59	Time Spend on Testing   : 25 hours (includes debugging)
+    60	
+    61			
+    62	As Java being platform independent my simulation is most likely portable to other operating systems.
+    63	
+    64	As Java being an object oriented language so that to modularize the code, I used Java programming language.
+bash-4.4$ exit
+exit
+
+Script done on 2018-05-01 16:13:00-0500

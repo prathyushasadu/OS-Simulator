@@ -1,0 +1,64 @@
+Problem Approach:
+
+I have used pseudo codes in designing the system.
+For the phaseIII implementation I used JAVA program language and wrote seperate modules for all the classes.
+
+No Utilities used.
+
+Bulk Complexities of System:
+---------------------------
+
+Number of Code lines	: 3546
+Number of comment lines : 251
+Number of Declarations  : 224
+Executable Statements   : 114
+Blank Lines             : 212
+Number of Decisions     : 182
+Number of Methods       : 85
+Number of Classes	: 21
+
+
+Module-wise Bulk Complexities:
+------------------------------
+
+----------------------------------------------------------------------------
+File_name                    CL   Dec  com  exe_st b_l  Deci  Methods  Class    
+----------------------------------------------------------------------------
+CPU.java                     300   17    21    6   12     14   6        1
+LOADER.java		     85    6     10    2   7      5    2        1
+OUTPUT.java                  349   20    13    5   9      7    3        1
+PCB.java		     80    16    9     3   6      2    1        1
+Stack.java		     82    5     7     4   8      4    9        1
+ERROR_HANDLER.java           192   4     11    2   10     1    2        1
+MEMORY.java 		     143   12    15    7   14     6    2        1
+PageFaultHandler.java        206   15    18    9   12     17   5        1
+PMT.java		     143   7     8     5   4      8    10       1
+SYSTEM.java                  180   9     12    6   13     9    3        1
+Spooling.java                374   24    19    11  21     29   4        1
+OneAddressInstruction.java   259   13    20    7   16     18   1        1
+ZeroAddressInstruction.java  274   16    23    9   15     16   1        1
+SegmentFaultHandler.java     36    3     6     2   3      4    1        1
+DISK_MANAGER.java	     48    5     8     3   5      5    2        1
+PROCESS_MANAGER.java         131   12    10    7   12     8    4        1
+CONVERSIONS.java	     109   10    8     5   13     6    6        1
+OPERATIONS.java		     269   14    13    8   15     12   10       1 	 
+METERING.java                168   7     9     6   8      4    4        1
+CLOCK.java		     22    3     4     2   3      1    2        1
+CHECK.java                   96    6     7     5   6      6    7        1
+---------------------------------------------------------------------------
+Total                        3546  224  251   114 212    182   85       21
+--------------------------------------------------------------------------- 
+CL  = code Lines
+Dec = Declarations
+com = comments
+exe_stmt = executable statements
+b_l      = blank lines         
+
+Time Spent on Designing : 30 hours
+Time Spent on Coding    : 25 hours
+Time Spend on Testing   : 25 hours (includes debugging)
+
+		
+As Java being platform independent my simulation is most likely portable to other operating systems.
+
+As Java being an object oriented language so that to modularize the code, I used Java programming language.
